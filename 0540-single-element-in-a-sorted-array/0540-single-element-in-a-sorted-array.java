@@ -1,21 +1,17 @@
 class Solution {
     public int singleNonDuplicate(int[] nums) {
-        // solving by frequency list 
-        int max = Integer.MIN_VALUE;
-        for (int i : nums) {
-            if (i > max) {
-                max = i;
+        int n = nums.length;
+        if (n == 1) {
+            return nums[0];
+        }
+        int i = 0;
+        while (i < n - 1) {
+            if (nums[i] == nums[i + 1])
+                i += 2;
+            else {
+                break;
             }
         }
-        int[] freq = new int[max + 1];
-        for (int i = 0; i < nums.length; i++) {
-            freq[nums[i]]++;
-        }
-        for (int i = 0; i < freq.length; i++) {
-            if (freq[i] == 1) {
-                return i;
-            }
-        }
-        return -1;
+        return nums[i];
     }
 }
