@@ -9,7 +9,7 @@ class Solution {
         int mid2 = total / 2;
 
         int i = 0, j = 0;
-        int index = 0;
+        int index = 0;0
 
         int first = 0, second = 0;
 
