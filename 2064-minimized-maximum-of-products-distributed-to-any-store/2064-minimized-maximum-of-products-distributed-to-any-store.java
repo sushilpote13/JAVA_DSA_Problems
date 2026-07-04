@@ -1,25 +1,27 @@
 class Solution {
     public int minimizedMaximum(int n, int[] quantities) {
-        int high = Integer.MIN_VALUE;
-        for (int i : quantities) {
-            if (high < i) {
-                high = i;
-            }
-        }
+
         int low = 1;
-        int mid = low + ((high - low) / 2);
+        int high = 0;
+
+        for (int q : quantities)
+            high = Math.max(high, q);
+
         while (low <= high) {
+            int mid = low + (high - low) / 2;
+
             int count = 0;
-            for (int i : quantities) {
-                count += Math.ceil(i / (double) mid);
+            for (int q : quantities) {
+                count += (q + mid - 1) / mid;   // integer ceil
+                if (count > n) break;           // early exit
             }
-            if (count > n) {
+
+            if (count > n)
                 low = mid + 1;
-            } else {
+            else
                 high = mid - 1;
-            }
-            mid = low + ((high - low) / 2);
         }
-        return mid;
+
+        return low;
     }
 }
