@@ -1,25 +1,38 @@
+import java.util.*;
+
 class Solution {
-    public static List<List<Integer>> combinationSum(int[] candidates, int target) {
-        List<List<Integer>> list = new ArrayList<>();
+
+    public List<List<Integer>> combinationSum(int[] candidates, int target) {
+        List<List<Integer>> ans = new ArrayList<>();
         Arrays.sort(candidates);
-        backtrack(list, new ArrayList<>(), candidates, target, 0);
-        return list;
+
+        backtrack(candidates, target, 0, new ArrayList<>(), ans);
+
+        return ans;
     }
 
-    private static void backtrack(List<List<Integer>> list, List<Integer> tempList, int[] candidates, int remain,
-            int start) {
+    private void backtrack(int[] candidates, int remain, int start,
+                           List<Integer> temp, List<List<Integer>> ans) {
+
+        // Base Case
+        if (remain == 0) {
+            ans.add(new ArrayList<>(temp));
+            return;
+        }
+
         for (int i = start; i < candidates.length; i++) {
-            int val = candidates[i];
-            int subtarget = remain - val;
-            if (subtarget > 0) {
-                tempList.add(val);
-                backtrack(list, tempList, candidates, subtarget, i); // allow reuse of same element
-                tempList.remove(tempList.size() - 1);
-            } else if (subtarget == 0) {
-                tempList.add(val);
-                list.add(new ArrayList<>(tempList));
-                tempList.remove(tempList.size() - 1);
-            }
+
+            // No need to continue further
+            if (candidates[i] > remain)
+                break;
+
+            temp.add(candidates[i]);
+
+            // Reuse the same element
+            backtrack(candidates, remain - candidates[i], i, temp, ans);
+
+            // Backtrack
+            temp.remove(temp.size() - 1);
         }
     }
 }
