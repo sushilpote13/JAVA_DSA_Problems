@@ -18,6 +18,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0912-sort-an-array](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/0912-sort-an-array/) | Medium |
 | [2064-minimized-maximum-of-products-distributed-to-any-store](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/2064-minimized-maximum-of-products-distributed-to-any-store/) | Medium |
 | [2596-check-knight-tour-configuration](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/2596-check-knight-tour-configuration/) | Medium |
+| [3193-count-the-number-of-inversions](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/3193-count-the-number-of-inversions/) | Hard |
 ## Binary Search
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -52,6 +53,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0131-palindrome-partitioning](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/0131-palindrome-partitioning/) | Medium |
+| [3193-count-the-number-of-inversions](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/3193-count-the-number-of-inversions/) | Hard |
 ## Hash Table
 | Problem Name | Difficulty |
 | ------- | ------- |
