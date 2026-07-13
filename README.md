@@ -110,10 +110,12 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Math
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0002-add-two-numbers](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/0002-add-two-numbers/) | Medium |
 | [0050-powx-n](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/0050-powx-n/) | Medium |
 ## Recursion
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0002-add-two-numbers](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/0002-add-two-numbers/) | Medium |
 | [0021-merge-two-sorted-lists](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/0021-merge-two-sorted-lists/) | Easy |
 | [0050-powx-n](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/0050-powx-n/) | Medium |
 | [0206-reverse-linked-list](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/0206-reverse-linked-list/) | Easy |
@@ -121,6 +123,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Linked List
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0002-add-two-numbers](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/0002-add-two-numbers/) | Medium |
 | [0021-merge-two-sorted-lists](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/0021-merge-two-sorted-lists/) | Easy |
 | [0092-reverse-linked-list-ii](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/0092-reverse-linked-list-ii/) | Medium |
 | [0138-copy-list-with-random-pointer](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/0138-copy-list-with-random-pointer/) | Medium |
