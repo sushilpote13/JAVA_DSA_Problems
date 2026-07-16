@@ -1,13 +1,20 @@
 class Solution {
     public int firstUniqChar(String s) {
-        int[] cnt = new int[26];
-        for (int i = 0; i < s.length(); i++) {
-            cnt[s.charAt(i) - 'a']++;
+        HashMap<Character, Integer> charCount = new HashMap<>();
+        Queue<Character> queue = new LinkedList<>();
+
+        for (char c : s.toCharArray()) {
+            charCount.put(c, charCount.getOrDefault(c, 0) + 1);
+            queue.offer(c);
         }
-        for (int i = 0; i < s.length(); i++) {
-            if (cnt[s.charAt(i) - 'a'] == 1)
-                return i;
+
+        while (!queue.isEmpty()) {
+            char c = queue.poll();
+            if (charCount.get(c) == 1) {
+                return s.indexOf(c);
+            }
         }
+
         return -1;
     }
 }
