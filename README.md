@@ -18,6 +18,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0852-peak-index-in-a-mountain-array](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/0852-peak-index-in-a-mountain-array/) | Medium |
 | [0912-sort-an-array](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/0912-sort-an-array/) | Medium |
 | [2064-minimized-maximum-of-products-distributed-to-any-store](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/2064-minimized-maximum-of-products-distributed-to-any-store/) | Medium |
+| [2073-time-needed-to-buy-tickets](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/2073-time-needed-to-buy-tickets/) | Easy |
 | [2596-check-knight-tour-configuration](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/2596-check-knight-tour-configuration/) | Medium |
 | [3193-count-the-number-of-inversions](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/3193-count-the-number-of-inversions/) | Hard |
 ## Binary Search
@@ -82,6 +83,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Simulation
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [2073-time-needed-to-buy-tickets](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/2073-time-needed-to-buy-tickets/) | Easy |
 | [2596-check-knight-tour-configuration](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/2596-check-knight-tour-configuration/) | Medium |
 ## Bit Manipulation
 | Problem Name | Difficulty |
@@ -168,6 +170,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- | ------- |
 | [0225-implement-stack-using-queues](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/0225-implement-stack-using-queues/) | Easy |
 | [0387-first-unique-character-in-a-string](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/0387-first-unique-character-in-a-string/) | Easy |
+| [2073-time-needed-to-buy-tickets](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/2073-time-needed-to-buy-tickets/) | Easy |
 ## Monotonic Stack
 | Problem Name | Difficulty |
 | ------- | ------- |
