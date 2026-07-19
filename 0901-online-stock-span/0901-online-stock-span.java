@@ -2,24 +2,19 @@ class StockSpanner {
     class Pair {
         int price;
         int span;
-
         Pair(int val, int span) {
             this.price = val;
             this.span = span;
         }
     }
-
     Stack<Pair> stack;
-
     public StockSpanner() {
         stack = new Stack<>();
     }
-
     public int next(int price) {
         int span = 1;
         while (!stack.isEmpty() && stack.peek().price <= price) {
-            Pair curr = stack.pop();
-            span += curr.span;
+            span += stack.pop().span;
         }
         stack.push(new Pair(price, span));
         return span;
