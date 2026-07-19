@@ -1,54 +1,39 @@
+import java.util.Stack;
+
 class MinStack {
-    // so we can use Node and stor the current minimum in this
-    class Node {
-        int value;
-        int min;
 
-        Node(int value, int min) {
-            this.value = value;
-            this.min = min;
-        }
-    }
-
-    //Now we have create a Stack 
-    Stack<Node> stack;
+    private Stack<Integer> mainStack;
+    private Stack<Integer> minStack;
 
     public MinStack() {
-        stack = new Stack<>();
+        mainStack = new Stack<>();
+        minStack = new Stack<>();
     }
 
-    public void push(int value) {
-        // check weather it is empty or not 
-        Node node;
-        if (stack.isEmpty()) {
-            node = new Node(value, value);
+    public void push(int val) {
+
+        mainStack.push(val);
+
+        if (minStack.isEmpty()) {
+            minStack.push(val);
         } else {
-            node = new Node(value, Math.min(value, stack.peek().min));
+            minStack.push(Math.min(val, minStack.peek()));
         }
-        stack.push(node);
     }
 
     public void pop() {
-        // before poping check for empty 
-        if (!stack.isEmpty()) {
-            stack.pop();
+
+        if (!mainStack.isEmpty()) {
+            mainStack.pop();
+            minStack.pop();
         }
     }
 
     public int top() {
-        return stack.peek().value;
+        return mainStack.peek();
     }
 
     public int getMin() {
-        return stack.peek().min;
+        return minStack.peek();
     }
 }
-
-/**
- * Your MinStack object will be instantiated and called as such:
- * MinStack obj = new MinStack();
- * obj.push(value);
- * obj.pop();
- * int param_3 = obj.top();
- * int param_4 = obj.getMin();
- */
