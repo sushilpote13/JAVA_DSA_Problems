@@ -1,33 +1,50 @@
 /**
-* Definition for a binary tree node.
-* public class TreeNode {
-*     int val;
-*     TreeNode left;
-*     TreeNode right;
-*     TreeNode() {}
-*     TreeNode(int val) { this.val = val; }
-*     TreeNode(int val, TreeNode left, TreeNode right) {
-*         this.val = val;
-*         this.left = left;
-*         this.right = right;
-*     }
-* }
-*/
+ * Definition for a binary tree node.
+ * public class TreeNode {
+ *     int val;
+ *     TreeNode left;
+ *     TreeNode right;
+ *     TreeNode() {}
+ *     TreeNode(int val) { this.val = val; }
+ *     TreeNode(int val, TreeNode left, TreeNode right) {
+ *         this.val = val;
+ *         this.left = left;
+ *         this.right = right;
+ *     }
+ * }
+ */
 class Solution {
-    public static int height(TreeNode Node) {
-        if (Node == null) {
+    public int checkHeight(TreeNode root) {
+        // Base case
+        if (root == null) {
             return 0;
         }
-        return Math.max(height(Node.left), height(Node.right)) + 1;
+        // Get left subtree height
+        int leftHeight = checkHeight(root.left);
+
+        // If left subtree is unbalanced
+        if (leftHeight == -1) {
+            return -1;
+        }
+
+        // Get right subtree height
+        int rightHeight = checkHeight(root.right);
+
+        // If right subtree is unbalanced
+        if (rightHeight == -1) {
+            return -1;
+        }
+
+        // Check current node
+        if (Math.abs(leftHeight - rightHeight) > 1) {
+            return -1;
+        }
+
+        // Return current height
+        return Math.max(leftHeight, rightHeight) + 1;
     }
 
     public boolean isBalanced(TreeNode root) {
-        if (root == null) {
-            return true;
-        }
-        if (!(Math.abs(height(root.left) - height(root.right)) <= 1)) {
-            return false;
-        }
-        return isBalanced(root.left) && isBalanced(root.right);
+        return checkHeight(root) != -1;
     }
 }
