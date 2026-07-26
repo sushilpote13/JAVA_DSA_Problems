@@ -15,14 +15,10 @@
 */
 class Solution {
     public static int height(TreeNode Node) {
-        // base condition 
         if (Node == null) {
             return 0;
         }
-        int leftH = height(Node.left);
-        int rightH = height(Node.right);
-        int H = Math.max(leftH, rightH) + 1;
-        return H;
+        return Math.max(height(Node.left), height(Node.right)) + 1;
     }
 
     public boolean isBalanced(TreeNode root) {
