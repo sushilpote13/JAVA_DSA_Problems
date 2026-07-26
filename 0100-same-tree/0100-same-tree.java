@@ -20,11 +20,7 @@ class Solution {
             return true;
         }
         // condition 2 
-        if (p == null || q == null) {
-            return false;
-        }
-        // condition 3 if they are not null then check the values 
-        if (p.val != q.val) {
+        if (p == null || q == null || (p.val != q.val)) {
             return false;
         }
         return isSameTree(p.left, q.left) && isSameTree(p.right, q.right);
