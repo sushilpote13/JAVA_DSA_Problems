@@ -29,19 +29,13 @@ class Solution {
 
     public boolean isSubtree(TreeNode root, TreeNode subRoot) {
         // base condition  
-        if (root == null && subRoot == null) {
-            return true;
-        }
-        if (subRoot == null) {
+        if ((root == null && subRoot == null) || (subRoot == null) || (Match(root, subRoot))) {
             return true;
         }
         if (root == null) {
             return false;
         }
 
-        if (Match(root, subRoot)) {
-            return true;
-        }
         return isSubtree(root.left, subRoot) || isSubtree(root.right, subRoot);
     }
 }
