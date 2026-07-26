@@ -84,11 +84,13 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0094-binary-tree-inorder-traversal](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/0094-binary-tree-inorder-traversal/) | Easy |
 | [0144-binary-tree-preorder-traversal](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/0144-binary-tree-preorder-traversal/) | Easy |
 | [0430-flatten-a-multilevel-doubly-linked-list](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/0430-flatten-a-multilevel-doubly-linked-list/) | Medium |
+| [0783-minimum-distance-between-bst-nodes](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/0783-minimum-distance-between-bst-nodes/) | Easy |
 | [2596-check-knight-tour-configuration](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/2596-check-knight-tour-configuration/) | Medium |
 ## Breadth-First Search
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0102-binary-tree-level-order-traversal](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/0102-binary-tree-level-order-traversal/) | Medium |
+| [0783-minimum-distance-between-bst-nodes](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/0783-minimum-distance-between-bst-nodes/) | Easy |
 | [0994-rotting-oranges](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/0994-rotting-oranges/) | Medium |
 | [2596-check-knight-tour-configuration](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/2596-check-knight-tour-configuration/) | Medium |
 ## Simulation
@@ -210,10 +212,16 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0094-binary-tree-inorder-traversal](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/0094-binary-tree-inorder-traversal/) | Easy |
 | [0102-binary-tree-level-order-traversal](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/0102-binary-tree-level-order-traversal/) | Medium |
 | [0144-binary-tree-preorder-traversal](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/0144-binary-tree-preorder-traversal/) | Easy |
+| [0783-minimum-distance-between-bst-nodes](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/0783-minimum-distance-between-bst-nodes/) | Easy |
 ## Binary Tree
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0094-binary-tree-inorder-traversal](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/0094-binary-tree-inorder-traversal/) | Easy |
 | [0102-binary-tree-level-order-traversal](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/0102-binary-tree-level-order-traversal/) | Medium |
 | [0144-binary-tree-preorder-traversal](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/0144-binary-tree-preorder-traversal/) | Easy |
+| [0783-minimum-distance-between-bst-nodes](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/0783-minimum-distance-between-bst-nodes/) | Easy |
+## Binary Search Tree
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0783-minimum-distance-between-bst-nodes](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/0783-minimum-distance-between-bst-nodes/) | Easy |
 <!---LeetCode Topics End-->
