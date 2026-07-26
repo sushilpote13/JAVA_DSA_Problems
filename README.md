@@ -86,6 +86,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0144-binary-tree-preorder-traversal](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/0144-binary-tree-preorder-traversal/) | Easy |
 | [0145-binary-tree-postorder-traversal](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/0145-binary-tree-postorder-traversal/) | Easy |
 | [0430-flatten-a-multilevel-doubly-linked-list](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/0430-flatten-a-multilevel-doubly-linked-list/) | Medium |
+| [0543-diameter-of-binary-tree](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/0543-diameter-of-binary-tree/) | Easy |
 | [0783-minimum-distance-between-bst-nodes](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/0783-minimum-distance-between-bst-nodes/) | Easy |
 | [2596-check-knight-tour-configuration](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/2596-check-knight-tour-configuration/) | Medium |
 ## Breadth-First Search
@@ -218,6 +219,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0102-binary-tree-level-order-traversal](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/0102-binary-tree-level-order-traversal/) | Medium |
 | [0144-binary-tree-preorder-traversal](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/0144-binary-tree-preorder-traversal/) | Easy |
 | [0145-binary-tree-postorder-traversal](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/0145-binary-tree-postorder-traversal/) | Easy |
+| [0543-diameter-of-binary-tree](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/0543-diameter-of-binary-tree/) | Easy |
 | [0783-minimum-distance-between-bst-nodes](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/0783-minimum-distance-between-bst-nodes/) | Easy |
 ## Binary Tree
 | Problem Name | Difficulty |
@@ -227,6 +229,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0102-binary-tree-level-order-traversal](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/0102-binary-tree-level-order-traversal/) | Medium |
 | [0144-binary-tree-preorder-traversal](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/0144-binary-tree-preorder-traversal/) | Easy |
 | [0145-binary-tree-postorder-traversal](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/0145-binary-tree-postorder-traversal/) | Easy |
+| [0543-diameter-of-binary-tree](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/0543-diameter-of-binary-tree/) | Easy |
 | [0783-minimum-distance-between-bst-nodes](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/0783-minimum-distance-between-bst-nodes/) | Easy |
 ## Binary Search Tree
 | Problem Name | Difficulty |
