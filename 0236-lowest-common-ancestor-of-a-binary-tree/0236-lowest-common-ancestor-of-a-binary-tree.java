@@ -1,3 +1,4 @@
+
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -8,15 +9,28 @@
  * }
  */
 class Solution {
+    private Map<TreeNode, TreeNode> parent = new HashMap<>();
+
+    public void buildNode(TreeNode root, TreeNode par) {
+        if (root == null) {
+            return;
+        }
+        parent.put(root, par);
+        buildNode(root.left, root);
+        buildNode(root.right, root);
+    }
+
     public TreeNode lowestCommonAncestor(TreeNode root, TreeNode p, TreeNode q) {
-        if (root == null || root == p || root == q) {
-            return root;
+        buildNode(root, null);
+        Set<TreeNode> set = new HashSet<>();
+        while (p != null) {
+            set.add(p);
+            p = parent.get(p);
         }
-        TreeNode left = lowestCommonAncestor(root.left, p, q);
-        TreeNode right = lowestCommonAncestor(root.right, p, q);
-        if (left != null && right != null) {
-            return root;
+        while (!set.contains(q)) {
+            q = parent.get(q);
         }
-        return (left != null) ? left : right;
+
+        return q;
     }
 }
