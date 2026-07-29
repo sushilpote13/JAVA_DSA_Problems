@@ -95,6 +95,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0543-diameter-of-binary-tree](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/0543-diameter-of-binary-tree/) | Easy |
 | [0572-subtree-of-another-tree](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/0572-subtree-of-another-tree/) | Easy |
 | [0783-minimum-distance-between-bst-nodes](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/0783-minimum-distance-between-bst-nodes/) | Easy |
+| [1038-binary-search-tree-to-greater-sum-tree](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/1038-binary-search-tree-to-greater-sum-tree/) | Medium |
 | [1161-maximum-level-sum-of-a-binary-tree](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/1161-maximum-level-sum-of-a-binary-tree/) | Medium |
 | [2596-check-knight-tour-configuration](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/2596-check-knight-tour-configuration/) | Medium |
 ## Breadth-First Search
@@ -236,6 +237,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0543-diameter-of-binary-tree](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/0543-diameter-of-binary-tree/) | Easy |
 | [0572-subtree-of-another-tree](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/0572-subtree-of-another-tree/) | Easy |
 | [0783-minimum-distance-between-bst-nodes](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/0783-minimum-distance-between-bst-nodes/) | Easy |
+| [1038-binary-search-tree-to-greater-sum-tree](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/1038-binary-search-tree-to-greater-sum-tree/) | Medium |
 | [1161-maximum-level-sum-of-a-binary-tree](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/1161-maximum-level-sum-of-a-binary-tree/) | Medium |
 ## Binary Tree
 | Problem Name | Difficulty |
@@ -252,11 +254,13 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0543-diameter-of-binary-tree](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/0543-diameter-of-binary-tree/) | Easy |
 | [0572-subtree-of-another-tree](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/0572-subtree-of-another-tree/) | Easy |
 | [0783-minimum-distance-between-bst-nodes](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/0783-minimum-distance-between-bst-nodes/) | Easy |
+| [1038-binary-search-tree-to-greater-sum-tree](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/1038-binary-search-tree-to-greater-sum-tree/) | Medium |
 | [1161-maximum-level-sum-of-a-binary-tree](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/1161-maximum-level-sum-of-a-binary-tree/) | Medium |
 ## Binary Search Tree
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0783-minimum-distance-between-bst-nodes](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/0783-minimum-distance-between-bst-nodes/) | Easy |
+| [1038-binary-search-tree-to-greater-sum-tree](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/1038-binary-search-tree-to-greater-sum-tree/) | Medium |
 ## String Matching
 | Problem Name | Difficulty |
 | ------- | ------- |
