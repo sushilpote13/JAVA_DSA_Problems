@@ -19,43 +19,21 @@ class Solution {
     int maxPath = Integer.MIN_VALUE;
 
     public int maxPathSum(TreeNode root) {
-        traverse(root);
+        calculate(root);
         return maxPath;
     }
 
-    // Visit every node
-    public void traverse(TreeNode node) {
-        if (node == null)
-            return;
-
-        calculate(node);
-
-        traverse(node.left);
-        traverse(node.right);
-    }
-
-    // Returns the best downward path from this node
     public int calculate(TreeNode node) {
         if (node == null)
             return 0;
 
-        int left = calculate(node.left);
-        int right = calculate(node.right);
+        int left = Math.max(0, calculate(node.left));
+        int right = Math.max(0, calculate(node.right));
 
-        // Ignore negative paths
-        if (left < 0)
-            left = 0;
+        // Check if the best path passes through this node
+        maxPath = Math.max(maxPath, left + right + node.val);
 
-        if (right < 0)
-            right = 0;
-
-        // Path passing through this node
-        int currentPath = left + node.val + right;
-
-        if (currentPath > maxPath)
-            maxPath = currentPath;
-
-        // Return only one side to parent
+        // Return the best downward path to the parent
         return node.val + Math.max(left, right);
     }
 }
