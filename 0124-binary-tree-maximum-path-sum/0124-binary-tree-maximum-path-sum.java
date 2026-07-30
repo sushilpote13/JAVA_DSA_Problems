@@ -1,3 +1,19 @@
+/**
+ * Definition for a binary tree node.
+ * public class TreeNode {
+ *     int val;
+ *     TreeNode left;
+ *     TreeNode right;
+ *     TreeNode() {}
+ *     TreeNode(int val) { this.val = val; }
+ *     TreeNode(int val, TreeNode left, TreeNode right) {
+ *         this.val = val;
+ *         this.left = left;
+ *         this.right = right;
+ *     }
+ * }
+ */
+
 class Solution {
 
     int maxPath = Integer.MIN_VALUE;
@@ -7,7 +23,7 @@ class Solution {
         return maxPath;
     }
 
-    // Pass every node one by one
+    // Visit every node
     public void traverse(TreeNode node) {
         if (node == null)
             return;
@@ -18,7 +34,7 @@ class Solution {
         traverse(node.right);
     }
 
-    // Calculate the best path through this node
+    // Returns the best downward path from this node
     public int calculate(TreeNode node) {
         if (node == null)
             return 0;
@@ -27,15 +43,19 @@ class Solution {
         int right = calculate(node.right);
 
         // Ignore negative paths
-        left = Math.max(0, left);
-        right = Math.max(0, right);
+        if (left < 0)
+            left = 0;
 
-        // Path passing through current node
-        int currentPath = node.val + left + right;
+        if (right < 0)
+            right = 0;
 
-        maxPath = Math.max(maxPath, currentPath);
+        // Path passing through this node
+        int currentPath = left + node.val + right;
 
-        // Return the best single path upward
+        if (currentPath > maxPath)
+            maxPath = currentPath;
+
+        // Return only one side to parent
         return node.val + Math.max(left, right);
     }
 }
