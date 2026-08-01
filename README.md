@@ -138,6 +138,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Heap (Priority Queue)
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0703-kth-largest-element-in-a-stream](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/0703-kth-largest-element-in-a-stream/) | Easy |
 | [0912-sort-an-array](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/0912-sort-an-array/) | Medium |
 ## Merge Sort
 | Problem Name | Difficulty |
@@ -220,6 +221,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0146-lru-cache](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/0146-lru-cache/) | Medium |
 | [0155-min-stack](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/0155-min-stack/) | Medium |
 | [0225-implement-stack-using-queues](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/0225-implement-stack-using-queues/) | Easy |
+| [0703-kth-largest-element-in-a-stream](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/0703-kth-largest-element-in-a-stream/) | Easy |
 | [0901-online-stock-span](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/0901-online-stock-span/) | Medium |
 | [1483-kth-ancestor-of-a-tree-node](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/1483-kth-ancestor-of-a-tree-node/) | Hard |
 ## Queue
@@ -238,6 +240,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Data Stream
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0703-kth-largest-element-in-a-stream](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/0703-kth-largest-element-in-a-stream/) | Easy |
 | [0901-online-stock-span](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/0901-online-stock-span/) | Medium |
 ## Tree
 | Problem Name | Difficulty |
@@ -258,6 +261,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0543-diameter-of-binary-tree](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/0543-diameter-of-binary-tree/) | Easy |
 | [0572-subtree-of-another-tree](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/0572-subtree-of-another-tree/) | Easy |
 | [0662-maximum-width-of-binary-tree](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/0662-maximum-width-of-binary-tree/) | Medium |
+| [0703-kth-largest-element-in-a-stream](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/0703-kth-largest-element-in-a-stream/) | Easy |
 | [0783-minimum-distance-between-bst-nodes](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/0783-minimum-distance-between-bst-nodes/) | Easy |
 | [1038-binary-search-tree-to-greater-sum-tree](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/1038-binary-search-tree-to-greater-sum-tree/) | Medium |
 | [1161-maximum-level-sum-of-a-binary-tree](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/1161-maximum-level-sum-of-a-binary-tree/) | Medium |
@@ -281,12 +285,14 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0543-diameter-of-binary-tree](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/0543-diameter-of-binary-tree/) | Easy |
 | [0572-subtree-of-another-tree](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/0572-subtree-of-another-tree/) | Easy |
 | [0662-maximum-width-of-binary-tree](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/0662-maximum-width-of-binary-tree/) | Medium |
+| [0703-kth-largest-element-in-a-stream](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/0703-kth-largest-element-in-a-stream/) | Easy |
 | [0783-minimum-distance-between-bst-nodes](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/0783-minimum-distance-between-bst-nodes/) | Easy |
 | [1038-binary-search-tree-to-greater-sum-tree](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/1038-binary-search-tree-to-greater-sum-tree/) | Medium |
 | [1161-maximum-level-sum-of-a-binary-tree](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/1161-maximum-level-sum-of-a-binary-tree/) | Medium |
 ## Binary Search Tree
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0703-kth-largest-element-in-a-stream](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/0703-kth-largest-element-in-a-stream/) | Easy |
 | [0783-minimum-distance-between-bst-nodes](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/0783-minimum-distance-between-bst-nodes/) | Easy |
 | [1038-binary-search-tree-to-greater-sum-tree](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/1038-binary-search-tree-to-greater-sum-tree/) | Medium |
 ## String Matching
