@@ -13,26 +13,23 @@
  *     }
  * }
  */
+
 class Solution {
-    public static void inorder(TreeNode root, ArrayList<Integer> list) {
-        // add left most
+
+    public boolean helper(TreeNode root, long min, long max) {
         if (root == null) {
-            return;
+            return true;
         }
-        inorder(root.left, list);
-        list.add(root.val);
-        inorder(root.right, list);
+
+        if (root.val <= min || root.val >= max) {
+            return false;
+        }
+
+        return helper(root.left, min, root.val)
+                && helper(root.right, root.val, max);
     }
 
     public boolean isValidBST(TreeNode root) {
-        // create a inorder list
-        ArrayList<Integer> list = new ArrayList<>();
-        inorder(root, list);
-        for (int i = 0; i < list.size() - 1; i++) {
-            if (list.get(i) >= list.get(i + 1)) {
-                return false;
-            }
-        }
-        return true;
+        return helper(root, Long.MIN_VALUE, Long.MAX_VALUE);
     }
 }
