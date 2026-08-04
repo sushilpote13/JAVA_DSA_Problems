@@ -9,30 +9,35 @@
  */
 
 class Solution {
-    // we can create a hashset of node -> it's parent 
-    private Map<TreeNode, TreeNode> parent = new HashMap<>();
+    public static void buildList(TreeNode root, TreeNode target,
+            ArrayList<TreeNode> list) {
 
-    public void buildNode(TreeNode root, TreeNode pat) {
-        // base condition
         if (root == null)
             return;
 
-        parent.put(root, pat);
-        buildNode(root.left, root);
-        buildNode(root.right, root);
+        list.add(root);
+
+        if (root == target)
+            return;
+
+        if (target.val < root.val)
+            buildList(root.left, target, list);
+        else
+            buildList(root.right, target, list);
     }
 
     public TreeNode lowestCommonAncestor(TreeNode root, TreeNode p, TreeNode q) {
-        buildNode(root, null);
-        Set<TreeNode> set = new HashSet<>();
+        // find the path and store in the list 
+        ArrayList<TreeNode> list1 = new ArrayList<>();
+        ArrayList<TreeNode> list2 = new ArrayList<>();
 
-        while (p != null) {
-            set.add(p);
-            p = parent.get(p);
+        buildList(root, p, list1);
+        buildList(root, q, list2);
+        int i = 0;
+        while (i < list1.size() && i < list2.size() && list1.get(i) == list2.get(i)) {
+            i++;
         }
-        while (q != null && !set.contains(q)) {
-            q = parent.get(q);
-        }
-        return q;
+        return list1.get(i - 1);
     }
+
 }
