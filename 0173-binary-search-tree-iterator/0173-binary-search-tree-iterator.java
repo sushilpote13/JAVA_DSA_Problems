@@ -14,6 +14,7 @@
  * }
  */
 class BSTIterator {
+    // create the inorder and storing into the list
     private ArrayList<Integer> list;
     private int idx = -1;
 
@@ -22,12 +23,16 @@ class BSTIterator {
         if (root == null) {
             return;
         }
+        // left call
         createList(root.left);
+        // add to the list 
         list.add(root.val);
+        // right call
         createList(root.right);
     }
 
     public BSTIterator(TreeNode root) {
+        // Initializes the arraylist after calling the class
         list = new ArrayList<>();
         createList(root);
     }
@@ -38,6 +43,7 @@ class BSTIterator {
     }
 
     public boolean hasNext() {
+        // if the idx is out of the size of arraylist then there is no next 
         if (idx + 1 < list.size()) {
             return true;
         }
