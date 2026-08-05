@@ -15,17 +15,21 @@
  */
 class Solution {
     public static void placeElement(TreeNode root, int val) {
-        if (root.val < val) {
-            if (root.right != null) {
-                placeElement(root.right, val);
+        TreeNode curr = root;
+
+        while (true) {
+            if (val < curr.val) {
+                if (curr.left == null) {
+                    curr.left = new TreeNode(val);
+                    break;
+                }
+                curr = curr.left;
             } else {
-                root.right = new TreeNode(val);
-            }
-        } else if (root.val > val) {
-            if (root.left != null) {
-                placeElement(root.left, val);
-            } else {
-                root.left = new TreeNode(val);
+                if (curr.right == null) {
+                    curr.right = new TreeNode(val);
+                    break;
+                }
+                curr = curr.right;
             }
         }
     }
