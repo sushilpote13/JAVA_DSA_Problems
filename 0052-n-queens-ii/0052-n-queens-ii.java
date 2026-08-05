@@ -3,43 +3,60 @@ class Solution {
     int count = 0;
 
     public int totalNQueens(int n) {
-        boolean[] col = new boolean[n];
-        boolean[] diag1 = new boolean[2 * n - 1]; // row - col + n - 1
-        boolean[] diag2 = new boolean[2 * n - 1]; // row + col
+        char[][] board = new char[n][n];
 
-        solve(0, n, col, diag1, diag2);
+        // Fill board with '.'
+        for (int i = 0; i < n; i++) {
+            for (int j = 0; j < n; j++) {
+                board[i][j] = '.';
+            }
+        }
+
+        solve(board, 0);
 
         return count;
     }
 
-    private void solve(int row, int n, boolean[] col,
-                       boolean[] diag1, boolean[] diag2) {
+    private void solve(char[][] board, int row) {
 
-        // All queens placed
-        if (row == n) {
+        if (row == board.length) {
             count++;
             return;
         }
 
-        for (int c = 0; c < n; c++) {
+        for (int col = 0; col < board.length; col++) {
 
-            int d1 = row - c + n - 1;
-            int d2 = row + c;
+            if (isSafe(board, row, col)) {
 
-            if (col[c] || diag1[d1] || diag2[d2])
-                continue;
+                board[row][col] = 'Q';
 
-            // Place queen
-            col[c] = true;
-            diag1[d1] = true;
-            diag2[d2] = true;
+                solve(board, row + 1);
 
-            solve(row + 1, n, col, diag1, diag2);
-
-            // Backtrack
-            col[c] = false;
-            diag1[d1] = false;
-            diag2[d2] = false;
+                board[row][col] = '.';
+            }
         }
+    }
+
+    private boolean isSafe(char[][] board, int row, int col) {
+
+        // Check upper column
+        for (int i = row - 1; i >= 0; i--) {
+            if (board[i][col] == 'Q')
+                return false;
+        }
+
+        // Upper left diagonal
+        for (int i = row - 1, j = col - 1; i >= 0 && j >= 0; i--, j--) {
+            if (board[i][j] == 'Q')
+                return false;
+        }
+
+        // Upper right diagonal
+        for (int i = row - 1, j = col + 1; i >= 0 && j < board.length; i--, j++) {
+            if (board[i][j] == 'Q')
+                return false;
+        }
+
+        return true;
     }
 }
