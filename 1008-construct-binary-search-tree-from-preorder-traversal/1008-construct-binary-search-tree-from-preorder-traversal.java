@@ -31,9 +31,7 @@ class Solution {
     }
 
     public TreeNode bstFromPreorder(int[] preorder) {
-        // frist create a root node and return it 
         TreeNode root = new TreeNode(preorder[0]);
-        // create a for and travel through each element of preroder
         for (int i = 1; i < preorder.length; i++) {
             placeElement(root, preorder[i]);
         }
