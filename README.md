@@ -66,6 +66,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0131-palindrome-partitioning](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/0131-palindrome-partitioning/) | Medium |
+| [0297-serialize-and-deserialize-binary-tree](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/0297-serialize-and-deserialize-binary-tree/) | Hard |
 | [0387-first-unique-character-in-a-string](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/0387-first-unique-character-in-a-string/) | Easy |
 ## Dynamic Programming
 | Problem Name | Difficulty |
@@ -110,6 +111,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0230-kth-smallest-element-in-a-bst](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/0230-kth-smallest-element-in-a-bst/) | Medium |
 | [0235-lowest-common-ancestor-of-a-binary-search-tree](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/0235-lowest-common-ancestor-of-a-binary-search-tree/) | Medium |
 | [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/0236-lowest-common-ancestor-of-a-binary-tree/) | Medium |
+| [0297-serialize-and-deserialize-binary-tree](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/0297-serialize-and-deserialize-binary-tree/) | Hard |
 | [0430-flatten-a-multilevel-doubly-linked-list](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/0430-flatten-a-multilevel-doubly-linked-list/) | Medium |
 | [0543-diameter-of-binary-tree](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/0543-diameter-of-binary-tree/) | Easy |
 | [0572-subtree-of-another-tree](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/0572-subtree-of-another-tree/) | Easy |
@@ -128,6 +130,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0102-binary-tree-level-order-traversal](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/0102-binary-tree-level-order-traversal/) | Medium |
 | [0103-binary-tree-zigzag-level-order-traversal](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/0103-binary-tree-zigzag-level-order-traversal/) | Medium |
 | [0116-populating-next-right-pointers-in-each-node](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/0116-populating-next-right-pointers-in-each-node/) | Medium |
+| [0297-serialize-and-deserialize-binary-tree](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/0297-serialize-and-deserialize-binary-tree/) | Hard |
 | [0662-maximum-width-of-binary-tree](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/0662-maximum-width-of-binary-tree/) | Medium |
 | [0783-minimum-distance-between-bst-nodes](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/0783-minimum-distance-between-bst-nodes/) | Easy |
 | [0994-rotting-oranges](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/0994-rotting-oranges/) | Medium |
@@ -238,6 +241,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0155-min-stack](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/0155-min-stack/) | Medium |
 | [0173-binary-search-tree-iterator](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/0173-binary-search-tree-iterator/) | Medium |
 | [0225-implement-stack-using-queues](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/0225-implement-stack-using-queues/) | Easy |
+| [0297-serialize-and-deserialize-binary-tree](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/0297-serialize-and-deserialize-binary-tree/) | Hard |
 | [0703-kth-largest-element-in-a-stream](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/0703-kth-largest-element-in-a-stream/) | Easy |
 | [0901-online-stock-span](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/0901-online-stock-span/) | Medium |
 | [1483-kth-ancestor-of-a-tree-node](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/1483-kth-ancestor-of-a-tree-node/) | Hard |
@@ -283,6 +287,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0230-kth-smallest-element-in-a-bst](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/0230-kth-smallest-element-in-a-bst/) | Medium |
 | [0235-lowest-common-ancestor-of-a-binary-search-tree](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/0235-lowest-common-ancestor-of-a-binary-search-tree/) | Medium |
 | [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/0236-lowest-common-ancestor-of-a-binary-tree/) | Medium |
+| [0297-serialize-and-deserialize-binary-tree](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/0297-serialize-and-deserialize-binary-tree/) | Hard |
 | [0543-diameter-of-binary-tree](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/0543-diameter-of-binary-tree/) | Easy |
 | [0572-subtree-of-another-tree](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/0572-subtree-of-another-tree/) | Easy |
 | [0662-maximum-width-of-binary-tree](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/0662-maximum-width-of-binary-tree/) | Medium |
@@ -316,6 +321,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0230-kth-smallest-element-in-a-bst](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/0230-kth-smallest-element-in-a-bst/) | Medium |
 | [0235-lowest-common-ancestor-of-a-binary-search-tree](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/0235-lowest-common-ancestor-of-a-binary-search-tree/) | Medium |
 | [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/0236-lowest-common-ancestor-of-a-binary-tree/) | Medium |
+| [0297-serialize-and-deserialize-binary-tree](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/0297-serialize-and-deserialize-binary-tree/) | Hard |
 | [0543-diameter-of-binary-tree](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/0543-diameter-of-binary-tree/) | Easy |
 | [0572-subtree-of-another-tree](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/0572-subtree-of-another-tree/) | Easy |
 | [0662-maximum-width-of-binary-tree](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/0662-maximum-width-of-binary-tree/) | Medium |
