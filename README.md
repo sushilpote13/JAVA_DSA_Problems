@@ -23,6 +23,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0496-next-greater-element-i](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/0496-next-greater-element-i/) | Easy |
 | [0503-next-greater-element-ii](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/0503-next-greater-element-ii/) | Medium |
 | [0540-single-element-in-a-sorted-array](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/0540-single-element-in-a-sorted-array/) | Medium |
+| [0632-smallest-range-covering-elements-from-k-lists](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/0632-smallest-range-covering-elements-from-k-lists/) | Hard |
 | [0852-peak-index-in-a-mountain-array](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/0852-peak-index-in-a-mountain-array/) | Medium |
 | [0912-sort-an-array](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/0912-sort-an-array/) | Medium |
 | [0994-rotting-oranges](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/0994-rotting-oranges/) | Medium |
@@ -45,6 +46,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0134-gas-station](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/0134-gas-station/) | Medium |
+| [0632-smallest-range-covering-elements-from-k-lists](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/0632-smallest-range-covering-elements-from-k-lists/) | Hard |
 | [2064-minimized-maximum-of-products-distributed-to-any-store](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/2064-minimized-maximum-of-products-distributed-to-any-store/) | Medium |
 ## Divide and Conquer
 | Problem Name | Difficulty |
@@ -91,6 +93,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0347-top-k-frequent-elements](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/0347-top-k-frequent-elements/) | Medium |
 | [0387-first-unique-character-in-a-string](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/0387-first-unique-character-in-a-string/) | Easy |
 | [0496-next-greater-element-i](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/0496-next-greater-element-i/) | Easy |
+| [0632-smallest-range-covering-elements-from-k-lists](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/0632-smallest-range-covering-elements-from-k-lists/) | Hard |
 | [1932-merge-bsts-to-create-single-bst](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/1932-merge-bsts-to-create-single-bst/) | Hard |
 ## Matrix
 | Problem Name | Difficulty |
@@ -157,12 +160,14 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0088-merge-sorted-array](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/0088-merge-sorted-array/) | Easy |
 | [0295-find-median-from-data-stream](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/0295-find-median-from-data-stream/) | Hard |
 | [0347-top-k-frequent-elements](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/0347-top-k-frequent-elements/) | Medium |
+| [0632-smallest-range-covering-elements-from-k-lists](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/0632-smallest-range-covering-elements-from-k-lists/) | Hard |
 | [0912-sort-an-array](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/0912-sort-an-array/) | Medium |
 ## Heap (Priority Queue)
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0295-find-median-from-data-stream](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/0295-find-median-from-data-stream/) | Hard |
 | [0347-top-k-frequent-elements](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/0347-top-k-frequent-elements/) | Medium |
+| [0632-smallest-range-covering-elements-from-k-lists](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/0632-smallest-range-covering-elements-from-k-lists/) | Hard |
 | [0703-kth-largest-element-in-a-stream](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/0703-kth-largest-element-in-a-stream/) | Easy |
 | [0912-sort-an-array](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/0912-sort-an-array/) | Medium |
 ## Merge Sort
@@ -391,4 +396,8 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0347-top-k-frequent-elements](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/0347-top-k-frequent-elements/) | Medium |
+## Sliding Window
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0632-smallest-range-covering-elements-from-k-lists](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/0632-smallest-range-covering-elements-from-k-lists/) | Hard |
 <!---LeetCode Topics End-->
