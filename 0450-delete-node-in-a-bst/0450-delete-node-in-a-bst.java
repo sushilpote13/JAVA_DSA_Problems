@@ -36,11 +36,15 @@ class Solution {
             }
             // case 03 if there are both child present
             else {
+                // make the copy of the root node
                 TreeNode temp = root.right;
+                // find the smallest node from the right branch 
                 while (temp.left != null) {
                     temp = temp.left;
                 }
+                // place the smallest node at the root node position 
                 root.val = temp.val;
+                // now we have to delete the smallest node from the tree
                 root.right = deleteNode(root.right, temp.val);
                 return root;
             }
