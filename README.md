@@ -13,6 +13,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0040-combination-sum-ii](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/0040-combination-sum-ii/) | Medium |
 | [0051-n-queens](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/0051-n-queens/) | Hard |
 | [0084-largest-rectangle-in-histogram](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/0084-largest-rectangle-in-histogram/) | Hard |
+| [0088-merge-sorted-array](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/0088-merge-sorted-array/) | Easy |
 | [0090-subsets-ii](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/0090-subsets-ii/) | Medium |
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/0105-construct-binary-tree-from-preorder-and-inorder-traversal/) | Medium |
 | [0106-construct-binary-tree-from-inorder-and-postorder-traversal](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/0106-construct-binary-tree-from-inorder-and-postorder-traversal/) | Medium |
@@ -150,6 +151,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Sorting
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0088-merge-sorted-array](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/0088-merge-sorted-array/) | Easy |
 | [0912-sort-an-array](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/0912-sort-an-array/) | Medium |
 ## Heap (Priority Queue)
 | Problem Name | Difficulty |
@@ -209,6 +211,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0061-rotate-list](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/0061-rotate-list/) | Medium |
+| [0088-merge-sorted-array](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/0088-merge-sorted-array/) | Easy |
 | [0141-linked-list-cycle](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/0141-linked-list-cycle/) | Easy |
 | [0142-linked-list-cycle-ii](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/0142-linked-list-cycle-ii/) | Medium |
 | [0234-palindrome-linked-list](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/0234-palindrome-linked-list/) | Easy |
