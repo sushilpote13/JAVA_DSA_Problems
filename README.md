@@ -20,6 +20,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0108-convert-sorted-array-to-binary-search-tree](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/0108-convert-sorted-array-to-binary-search-tree/) | Easy |
 | [0134-gas-station](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/0134-gas-station/) | Medium |
 | [0347-top-k-frequent-elements](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/0347-top-k-frequent-elements/) | Medium |
+| [0378-kth-smallest-element-in-a-sorted-matrix](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/0378-kth-smallest-element-in-a-sorted-matrix/) | Medium |
 | [0496-next-greater-element-i](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/0496-next-greater-element-i/) | Easy |
 | [0503-next-greater-element-ii](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/0503-next-greater-element-ii/) | Medium |
 | [0540-single-element-in-a-sorted-array](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/0540-single-element-in-a-sorted-array/) | Medium |
@@ -38,6 +39,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- | ------- |
 | [0004-median-of-two-sorted-arrays](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/master/0004-median-of-two-sorted-arrays) |
 | [0033-search-in-rotated-sorted-array](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/0033-search-in-rotated-sorted-array/) | Medium |
+| [0378-kth-smallest-element-in-a-sorted-matrix](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/0378-kth-smallest-element-in-a-sorted-matrix/) | Medium |
 | [0540-single-element-in-a-sorted-array](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/0540-single-element-in-a-sorted-array/) | Medium |
 | [0852-peak-index-in-a-mountain-array](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/0852-peak-index-in-a-mountain-array/) | Medium |
 | [1483-kth-ancestor-of-a-tree-node](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/1483-kth-ancestor-of-a-tree-node/) | Hard |
@@ -99,6 +101,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0037-sudoku-solver](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/0037-sudoku-solver/) | Hard |
+| [0378-kth-smallest-element-in-a-sorted-matrix](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/0378-kth-smallest-element-in-a-sorted-matrix/) | Medium |
 | [0994-rotting-oranges](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/0994-rotting-oranges/) | Medium |
 | [2596-check-knight-tour-configuration](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/2596-check-knight-tour-configuration/) | Medium |
 ## Depth-First Search
@@ -160,6 +163,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0088-merge-sorted-array](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/0088-merge-sorted-array/) | Easy |
 | [0295-find-median-from-data-stream](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/0295-find-median-from-data-stream/) | Hard |
 | [0347-top-k-frequent-elements](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/0347-top-k-frequent-elements/) | Medium |
+| [0378-kth-smallest-element-in-a-sorted-matrix](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/0378-kth-smallest-element-in-a-sorted-matrix/) | Medium |
 | [0632-smallest-range-covering-elements-from-k-lists](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/0632-smallest-range-covering-elements-from-k-lists/) | Hard |
 | [0912-sort-an-array](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/0912-sort-an-array/) | Medium |
 ## Heap (Priority Queue)
@@ -167,6 +171,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- | ------- |
 | [0295-find-median-from-data-stream](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/0295-find-median-from-data-stream/) | Hard |
 | [0347-top-k-frequent-elements](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/0347-top-k-frequent-elements/) | Medium |
+| [0378-kth-smallest-element-in-a-sorted-matrix](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/0378-kth-smallest-element-in-a-sorted-matrix/) | Medium |
 | [0632-smallest-range-covering-elements-from-k-lists](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/0632-smallest-range-covering-elements-from-k-lists/) | Hard |
 | [0703-kth-largest-element-in-a-stream](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/0703-kth-largest-element-in-a-stream/) | Easy |
 | [0912-sort-an-array](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/0912-sort-an-array/) | Medium |
