@@ -1,63 +1,70 @@
 class Trie {
 
-    static class Node {
-        Node[] child = new Node[26];
-        boolean end;
+    // Each node stores links to the next characters
+    class Node {
+        Node[] children = new Node[26];
+        boolean endOfWord;
     }
 
-    private final Node root = new Node();
+    private Node root;
 
+    // Constructor
     public Trie() {
+        root = new Node();
     }
 
+    // Insert a word into the Trie
     public void insert(String word) {
 
         Node curr = root;
 
-        for (int i = 0; i < word.length(); i++) {
+        for (char ch : word.toCharArray()) {
 
-            int index = word.charAt(i) - 'a';
+            int index = ch - 'a';
 
-            if (curr.child[index] == null)
-                curr.child[index] = new Node();
+            // Create node if it does not exist
+            if (curr.children[index] == null) {
+                curr.children[index] = new Node();
+            }
 
-            curr = curr.child[index];
+            curr = curr.children[index];
         }
 
-        curr.end = true;
+        // Mark the last node as a complete word
+        curr.endOfWord = true;
     }
 
+    // Search for an exact word
     public boolean search(String word) {
 
-        Node curr = root;
+        Node node = findNode(word);
 
-        for (int i = 0; i < word.length(); i++) {
-
-            int index = word.charAt(i) - 'a';
-
-            if (curr.child[index] == null)
-                return false;
-
-            curr = curr.child[index];
-        }
-
-        return curr.end;
+        return node != null && node.endOfWord;
     }
 
+    // Check whether any word starts with the given prefix
     public boolean startsWith(String prefix) {
+
+        return findNode(prefix) != null;
+    }
+
+    // Finds the node reached after traversing the given string
+    private Node findNode(String str) {
 
         Node curr = root;
 
-        for (int i = 0; i < prefix.length(); i++) {
+        for (char ch : str.toCharArray()) {
 
-            int index = prefix.charAt(i) - 'a';
+            int index = ch - 'a';
 
-            if (curr.child[index] == null)
-                return false;
+            // Character path does not exist
+            if (curr.children[index] == null) {
+                return null;
+            }
 
-            curr = curr.child[index];
+            curr = curr.children[index];
         }
 
-        return true;
+        return curr;
     }
 }
