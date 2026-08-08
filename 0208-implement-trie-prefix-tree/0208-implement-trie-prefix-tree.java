@@ -1,24 +1,28 @@
 class Trie {
 
+    // Each node stores links to the next characters
     class Node {
         Node[] children = new Node[26];
-        boolean endOfWord = false;
+        boolean endOfWord;
     }
 
-    Node root;
+    private Node root;
 
+    // Constructor
     public Trie() {
         root = new Node();
     }
 
+    // Insert a word into the Trie
     public void insert(String word) {
 
         Node curr = root;
 
-        for (int i = 0; i < word.length(); i++) {
+        for (char ch : word.toCharArray()) {
 
-            int index = word.charAt(i) - 'a';
+            int index = ch - 'a';
 
+            // Create node if it does not exist
             if (curr.children[index] == null) {
                 curr.children[index] = new Node();
             }
@@ -26,42 +30,41 @@ class Trie {
             curr = curr.children[index];
         }
 
+        // Mark the last node as a complete word
         curr.endOfWord = true;
     }
 
+    // Search for an exact word
     public boolean search(String word) {
 
-        Node curr = root;
+        Node node = findNode(word);
 
-        for (int i = 0; i < word.length(); i++) {
-
-            int index = word.charAt(i) - 'a';
-
-            if (curr.children[index] == null) {
-                return false;
-            }
-
-            curr = curr.children[index];
-        }
-
-        return curr.endOfWord;
+        return node != null && node.endOfWord;
     }
 
+    // Check whether any word starts with the given prefix
     public boolean startsWith(String prefix) {
+
+        return findNode(prefix) != null;
+    }
+
+    // Finds the node reached after traversing the given string
+    private Node findNode(String str) {
 
         Node curr = root;
 
-        for (int i = 0; i < prefix.length(); i++) {
+        for (char ch : str.toCharArray()) {
 
-            int index = prefix.charAt(i) - 'a';
+            int index = ch - 'a';
 
+            // Character path does not exist
             if (curr.children[index] == null) {
-                return false;
+                return null;
             }
 
             curr = curr.children[index];
         }
 
-        return true;
+        return curr;
     }
 }
