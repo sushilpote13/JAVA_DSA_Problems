@@ -1,70 +1,63 @@
 class Trie {
 
-    // Each node stores links to the next characters
-    class Node {
-        Node[] children = new Node[26];
-        boolean endOfWord;
+    static class Node {
+        Node[] child = new Node[26];
+        boolean end;
     }
 
-    private Node root;
+    private final Node root = new Node();
 
-    // Constructor
     public Trie() {
-        root = new Node();
     }
 
-    // Insert a word into the Trie
     public void insert(String word) {
 
         Node curr = root;
 
-        for (char ch : word.toCharArray()) {
+        for (int i = 0; i < word.length(); i++) {
 
-            int index = ch - 'a';
+            int index = word.charAt(i) - 'a';
 
-            // Create node if it does not exist
-            if (curr.children[index] == null) {
-                curr.children[index] = new Node();
-            }
+            if (curr.child[index] == null)
+                curr.child[index] = new Node();
 
-            curr = curr.children[index];
+            curr = curr.child[index];
         }
 
-        // Mark the last node as a complete word
-        curr.endOfWord = true;
+        curr.end = true;
     }
 
-    // Search for an exact word
     public boolean search(String word) {
-
-        Node node = findNode(word);
-
-        return node != null && node.endOfWord;
-    }
-
-    // Check whether any word starts with the given prefix
-    public boolean startsWith(String prefix) {
-
-        return findNode(prefix) != null;
-    }
-
-    // Finds the node reached after traversing the given string
-    private Node findNode(String str) {
 
         Node curr = root;
 
-        for (char ch : str.toCharArray()) {
+        for (int i = 0; i < word.length(); i++) {
 
-            int index = ch - 'a';
+            int index = word.charAt(i) - 'a';
 
-            // Character path does not exist
-            if (curr.children[index] == null) {
-                return null;
-            }
+            if (curr.child[index] == null)
+                return false;
 
-            curr = curr.children[index];
+            curr = curr.child[index];
         }
 
-        return curr;
+        return curr.end;
+    }
+
+    public boolean startsWith(String prefix) {
+
+        Node curr = root;
+
+        for (int i = 0; i < prefix.length(); i++) {
+
+            int index = prefix.charAt(i) - 'a';
+
+            if (curr.child[index] == null)
+                return false;
+
+            curr = curr.child[index];
+        }
+
+        return true;
     }
 }
