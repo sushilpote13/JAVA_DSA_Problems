@@ -137,6 +137,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0543-diameter-of-binary-tree](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/0543-diameter-of-binary-tree/) | Easy |
 | [0572-subtree-of-another-tree](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/0572-subtree-of-another-tree/) | Easy |
 | [0662-maximum-width-of-binary-tree](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/0662-maximum-width-of-binary-tree/) | Medium |
+| [0684-redundant-connection](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/0684-redundant-connection/) | Medium |
 | [0733-flood-fill](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/0733-flood-fill/) | Easy |
 | [0783-minimum-distance-between-bst-nodes](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/0783-minimum-distance-between-bst-nodes/) | Easy |
 | [1038-binary-search-tree-to-greater-sum-tree](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/1038-binary-search-tree-to-greater-sum-tree/) | Medium |
@@ -155,6 +156,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0207-course-schedule](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/0207-course-schedule/) | Medium |
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/0297-serialize-and-deserialize-binary-tree/) | Hard |
 | [0662-maximum-width-of-binary-tree](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/0662-maximum-width-of-binary-tree/) | Medium |
+| [0684-redundant-connection](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/0684-redundant-connection/) | Medium |
 | [0733-flood-fill](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/0733-flood-fill/) | Easy |
 | [0783-minimum-distance-between-bst-nodes](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/0783-minimum-distance-between-bst-nodes/) | Easy |
 | [0994-rotting-oranges](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/0994-rotting-oranges/) | Medium |
@@ -438,6 +440,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0207-course-schedule](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/0207-course-schedule/) | Medium |
+| [0684-redundant-connection](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/0684-redundant-connection/) | Medium |
 ## Topological Sort
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -446,4 +449,8 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0207-course-schedule](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/0207-course-schedule/) | Medium |
+## Union-Find
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0684-redundant-connection](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/0684-redundant-connection/) | Medium |
 <!---LeetCode Topics End-->
