@@ -1,21 +1,29 @@
 class Solution {
 
-    public boolean dfs(int curr, int target,
+    public boolean bfs(int src, int target,
                        ArrayList<Integer>[] graph,
                        boolean[] visited) {
 
-        if (curr == target) {
-            return true;
-        }
+        Queue<Integer> queue = new LinkedList<>();
 
-        visited[curr] = true;
+        queue.add(src);
+        visited[src] = true;
 
-        for (int next : graph[curr]) {
+        while (!queue.isEmpty()) {
 
-            if (!visited[next]) {
+            int curr = queue.remove();
 
-                if (dfs(next, target, graph, visited)) {
-                    return true;
+            // Target found
+            if (curr == target) {
+                return true;
+            }
+
+            // Visit all neighbours
+            for (int next : graph[curr]) {
+
+                if (!visited[next]) {
+                    visited[next] = true;
+                    queue.add(next);
                 }
             }
         }
@@ -27,23 +35,28 @@ class Solution {
 
         int n = edges.length;
 
+        // Create graph
         ArrayList<Integer>[] graph = new ArrayList[n + 1];
 
         for (int i = 1; i <= n; i++) {
             graph[i] = new ArrayList<>();
         }
 
+        // Process every edge
         for (int[] edge : edges) {
 
             int u = edge[0];
             int v = edge[1];
 
+            // Fresh visited array for every edge
             boolean[] visited = new boolean[n + 1];
 
-            if (dfs(u, v, graph, visited)) {
+            // Check if path already exists
+            if (bfs(u, v, graph, visited)) {
                 return edge;
             }
 
+            // No path -> safely add edge
             graph[u].add(v);
             graph[v].add(u);
         }
