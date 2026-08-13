@@ -1,64 +1,66 @@
 class Solution {
 
-    public boolean bfs(int src, int target,
-                       ArrayList<Integer>[] graph,
-                       boolean[] visited) {
+    int[] parent;
+    int[] rank;
 
-        Queue<Integer> queue = new LinkedList<>();
+    // Find the ultimate parent
+    public int find(int x) {
 
-        queue.add(src);
-        visited[src] = true;
-
-        while (!queue.isEmpty()) {
-
-            int curr = queue.remove();
-
-            // Target found
-            if (curr == target) {
-                return true;
-            }
-
-            // Visit all neighbours
-            for (int next : graph[curr]) {
-
-                if (!visited[next]) {
-                    visited[next] = true;
-                    queue.add(next);
-                }
-            }
+        if (parent[x] == x) {
+            return x;
         }
 
-        return false;
+        // Path compression
+        return parent[x] = find(parent[x]);
+    }
+
+    // Union two components
+    public boolean union(int u, int v) {
+
+        int pu = find(u);
+        int pv = find(v);
+
+        // Already connected -> cycle
+        if (pu == pv) {
+            return false;
+        }
+
+        // Union by rank
+        if (rank[pu] < rank[pv]) {
+            parent[pu] = pv;
+        }
+        else if (rank[pu] > rank[pv]) {
+            parent[pv] = pu;
+        }
+        else {
+            parent[pv] = pu;
+            rank[pu]++;
+        }
+
+        return true;
     }
 
     public int[] findRedundantConnection(int[][] edges) {
 
         int n = edges.length;
 
-        // Create graph
-        ArrayList<Integer>[] graph = new ArrayList[n + 1];
+        parent = new int[n + 1];
+        rank = new int[n + 1];
 
+        // Initially every node is its own parent
         for (int i = 1; i <= n; i++) {
-            graph[i] = new ArrayList<>();
+            parent[i] = i;
         }
 
-        // Process every edge
         for (int[] edge : edges) {
 
             int u = edge[0];
             int v = edge[1];
 
-            // Fresh visited array for every edge
-            boolean[] visited = new boolean[n + 1];
-
-            // Check if path already exists
-            if (bfs(u, v, graph, visited)) {
+            // If union fails, cycle exists
+            if (!union(u, v)) {
                 return edge;
             }
-
-            // No path -> safely add edge
-            graph[u].add(v);
-            graph[v].add(u);
         }
 
         return new int[0];
