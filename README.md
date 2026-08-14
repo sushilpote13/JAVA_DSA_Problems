@@ -129,6 +129,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0144-binary-tree-preorder-traversal](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/0144-binary-tree-preorder-traversal/) | Easy |
 | [0145-binary-tree-postorder-traversal](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/0145-binary-tree-postorder-traversal/) | Easy |
 | [0207-course-schedule](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/0207-course-schedule/) | Medium |
+| [0210-course-schedule-ii](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/0210-course-schedule-ii/) | Medium |
 | [0230-kth-smallest-element-in-a-bst](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/0230-kth-smallest-element-in-a-bst/) | Medium |
 | [0235-lowest-common-ancestor-of-a-binary-search-tree](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/0235-lowest-common-ancestor-of-a-binary-search-tree/) | Medium |
 | [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/0236-lowest-common-ancestor-of-a-binary-tree/) | Medium |
@@ -154,6 +155,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0103-binary-tree-zigzag-level-order-traversal](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/0103-binary-tree-zigzag-level-order-traversal/) | Medium |
 | [0116-populating-next-right-pointers-in-each-node](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/0116-populating-next-right-pointers-in-each-node/) | Medium |
 | [0207-course-schedule](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/0207-course-schedule/) | Medium |
+| [0210-course-schedule-ii](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/0210-course-schedule-ii/) | Medium |
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/0297-serialize-and-deserialize-binary-tree/) | Hard |
 | [0662-maximum-width-of-binary-tree](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/0662-maximum-width-of-binary-tree/) | Medium |
 | [0684-redundant-connection](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/0684-redundant-connection/) | Medium |
@@ -440,11 +442,13 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0207-course-schedule](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/0207-course-schedule/) | Medium |
+| [0210-course-schedule-ii](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/0210-course-schedule-ii/) | Medium |
 | [0684-redundant-connection](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/0684-redundant-connection/) | Medium |
 ## Topological Sort
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0207-course-schedule](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/0207-course-schedule/) | Medium |
+| [0210-course-schedule-ii](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/0210-course-schedule-ii/) | Medium |
 ## Directed Acyclic Graph
 | Problem Name | Difficulty |
 | ------- | ------- |
