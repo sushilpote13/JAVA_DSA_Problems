@@ -1,55 +1,67 @@
 class Solution {
+    public class Edges {
+        int src;
+        int dest;
+
+        public Edges(int src, int dest) {
+            this.src = src;
+            this.dest = dest;
+        }
+    }
+
     public int[] findOrder(int numCourses, int[][] prerequisites) {
 
-        // Adjacency list
-        ArrayList<Integer>[] graph = new ArrayList[numCourses];
+        // create graph first
+        ArrayList<Edges>[] graph = new ArrayList[numCourses];
 
-        for (int i = 0; i < numCourses; i++) {
+        for (int i = 0; i < graph.length; i++) {
             graph[i] = new ArrayList<>();
         }
 
-        // Indegree of each course
-        int[] indegree = new int[numCourses];
-
-        // Build graph
-        for (int[] pre : prerequisites) {
-            int course = pre[0];
-            int prerequisite = pre[1];
-
-            graph[prerequisite].add(course);
-            indegree[course]++;
+        // fill the graph
+        for (int[] edge : prerequisites) {
+            graph[edge[1]].add(new Edges(edge[1], edge[0]));
         }
 
-        // Queue for courses with indegree 0
-        Queue<Integer> queue = new LinkedList<>();
+        // calculate indegree
+        int[] indegree = new int[numCourses];
 
-        for (int i = 0; i < numCourses; i++) {
-            if (indegree[i] == 0) {
-                queue.offer(i);
+        for (int i = 0; i < graph.length; i++) {
+            for (Edges e : graph[i]) {
+                indegree[e.dest]++;
             }
         }
 
+        // add indegree 0 courses in queue
+        Queue<Integer> q = new LinkedList<>();
+
+        for (int i = 0; i < numCourses; i++) {
+            if (indegree[i] == 0) {
+                q.add(i);
+            }
+        }
+
+        // topological sort
         int[] result = new int[numCourses];
         int index = 0;
 
-        // Topological Sort
-        while (!queue.isEmpty()) {
+        while (!q.isEmpty()) {
 
-            int current = queue.poll();
+            int cur = q.remove();
 
-            result[index++] = current;
+            result[index++] = cur;
 
-            for (int next : graph[current]) {
+            for (Edges e : graph[cur]) {
 
-                indegree[next]--;
+                indegree[e.dest]--;
 
-                if (indegree[next] == 0) {
-                    queue.offer(next);
+                if (indegree[e.dest] == 0) {
+                    q.add(e.dest);
                 }
             }
         }
 
-        // Cycle exists
+        // cycle detected
         if (index != numCourses) {
             return new int[0];
         }
