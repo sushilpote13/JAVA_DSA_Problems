@@ -1,5 +1,4 @@
 class Solution {
-
     public class Edges {
         int src;
         int dest;
@@ -12,25 +11,36 @@ class Solution {
         }
     }
 
+    public class Info {
+        int v;
+        int cost;
+        int stops;
+
+        public Info(int v, int cost, int stops) {
+            this.v = v;
+            this.cost = cost;
+            this.stops = stops;
+        }
+    }
+
     public int findCheapestPrice(int n, int[][] flights, int src, int dst, int k) {
 
-        // Create graph
+        // creating graph using flights
         ArrayList<Edges>[] graph = new ArrayList[n];
 
-        for (int i = 0; i < n; i++) {
+        for (int i = 0; i < graph.length; i++) {
             graph[i] = new ArrayList<>();
         }
 
-        // Fill graph
+        // fill the graph
         for (int i = 0; i < flights.length; i++) {
-            int from = flights[i][0];
-            int to = flights[i][1];
+            int source = flights[i][0];
+            int dest = flights[i][1];
             int cost = flights[i][2];
 
-            graph[from].add(new Edges(from, to, cost));
+            graph[source].add(new Edges(source, dest, cost));
         }
 
-        // dist[i] = cheapest cost to reach i
         int[] dist = new int[n];
 
         for (int i = 0; i < n; i++) {
@@ -39,31 +49,47 @@ class Solution {
 
         dist[src] = 0;
 
-        // At most k stops means at most k + 1 flights
-        for (int stops = 0; stops <= k; stops++) {
+        Queue<Info> q = new LinkedList<>();
+        q.add(new Info(src, 0, 0));
 
+        while (!q.isEmpty()) {
+            Info curr = q.remove();
+
+            // At most k stops = k + 1 flights
+            if (curr.stops > k) {
+                continue;
+            }
+
+            // Important: don't update dist directly while processing
             int[] temp = dist.clone();
 
-            for (int u = 0; u < n; u++) {
+            for (int i = 0; i < graph[curr.v].size(); i++) {
 
-                if (dist[u] == Integer.MAX_VALUE) {
-                    continue;
-                }
+                Edges e = graph[curr.v].get(i);
 
-                for (Edges e : graph[u]) {
+                int u = e.src;
+                int v = e.dest;
+                int wt = e.cost;
 
-                    int v = e.dest;
-                    int wt = e.cost;
+                if (curr.cost + wt < temp[v]) {
 
-                    if (dist[u] + wt < temp[v]) {
-                        temp[v] = dist[u] + wt;
-                    }
+                    temp[v] = curr.cost + wt;
+
+                    q.add(new Info(
+                        v,
+                        curr.cost + wt,
+                        curr.stops + 1
+                    ));
                 }
             }
 
             dist = temp;
         }
 
-        return dist[dst] == Integer.MAX_VALUE ? -1 : dist[dst];
+        if (dist[dst] == Integer.MAX_VALUE) {
+            return -1;
+        }
+
+        return dist[dst];
     }
 }
