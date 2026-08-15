@@ -87,6 +87,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0124-binary-tree-maximum-path-sum](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/0124-binary-tree-maximum-path-sum/) | Hard |
 | [0131-palindrome-partitioning](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/0131-palindrome-partitioning/) | Medium |
 | [0139-word-break](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/0139-word-break/) | Medium |
+| [0787-cheapest-flights-within-k-stops](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/0787-cheapest-flights-within-k-stops/) | Medium |
 | [1483-kth-ancestor-of-a-tree-node](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/1483-kth-ancestor-of-a-tree-node/) | Hard |
 | [3193-count-the-number-of-inversions](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/3193-count-the-number-of-inversions/) | Hard |
 ## Hash Table
@@ -141,6 +142,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0684-redundant-connection](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/0684-redundant-connection/) | Medium |
 | [0733-flood-fill](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/0733-flood-fill/) | Easy |
 | [0783-minimum-distance-between-bst-nodes](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/0783-minimum-distance-between-bst-nodes/) | Easy |
+| [0787-cheapest-flights-within-k-stops](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/0787-cheapest-flights-within-k-stops/) | Medium |
 | [1038-binary-search-tree-to-greater-sum-tree](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/1038-binary-search-tree-to-greater-sum-tree/) | Medium |
 | [1161-maximum-level-sum-of-a-binary-tree](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/1161-maximum-level-sum-of-a-binary-tree/) | Medium |
 | [1483-kth-ancestor-of-a-tree-node](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/1483-kth-ancestor-of-a-tree-node/) | Hard |
@@ -161,6 +163,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0684-redundant-connection](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/0684-redundant-connection/) | Medium |
 | [0733-flood-fill](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/0733-flood-fill/) | Easy |
 | [0783-minimum-distance-between-bst-nodes](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/0783-minimum-distance-between-bst-nodes/) | Easy |
+| [0787-cheapest-flights-within-k-stops](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/0787-cheapest-flights-within-k-stops/) | Medium |
 | [0994-rotting-oranges](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/0994-rotting-oranges/) | Medium |
 | [1161-maximum-level-sum-of-a-binary-tree](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/1161-maximum-level-sum-of-a-binary-tree/) | Medium |
 | [1483-kth-ancestor-of-a-tree-node](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/1483-kth-ancestor-of-a-tree-node/) | Hard |
@@ -192,6 +195,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0378-kth-smallest-element-in-a-sorted-matrix](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/0378-kth-smallest-element-in-a-sorted-matrix/) | Medium |
 | [0632-smallest-range-covering-elements-from-k-lists](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/0632-smallest-range-covering-elements-from-k-lists/) | Hard |
 | [0703-kth-largest-element-in-a-stream](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/0703-kth-largest-element-in-a-stream/) | Easy |
+| [0787-cheapest-flights-within-k-stops](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/0787-cheapest-flights-within-k-stops/) | Medium |
 | [0912-sort-an-array](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/0912-sort-an-array/) | Medium |
 ## Merge Sort
 | Problem Name | Difficulty |
@@ -444,6 +448,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0207-course-schedule](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/0207-course-schedule/) | Medium |
 | [0210-course-schedule-ii](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/0210-course-schedule-ii/) | Medium |
 | [0684-redundant-connection](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/0684-redundant-connection/) | Medium |
+| [0787-cheapest-flights-within-k-stops](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/0787-cheapest-flights-within-k-stops/) | Medium |
 ## Topological Sort
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -457,4 +462,8 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0684-redundant-connection](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/0684-redundant-connection/) | Medium |
+## Shortest Path
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0787-cheapest-flights-within-k-stops](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/0787-cheapest-flights-within-k-stops/) | Medium |
 <!---LeetCode Topics End-->
