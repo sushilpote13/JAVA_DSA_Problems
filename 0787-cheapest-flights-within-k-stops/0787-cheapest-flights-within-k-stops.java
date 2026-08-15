@@ -11,7 +11,7 @@ class Solution {
         }
     }
 
-    public class Info {
+    public class Info implements Comparable<Info> {
         int v;
         int cost;
         int stops;
@@ -20,6 +20,11 @@ class Solution {
             this.v = v;
             this.cost = cost;
             this.stops = stops;
+        }
+
+        @Override
+        public int compareTo(Info other) {
+            return Integer.compare(this.cost, other.cost);
         }
     }
 
@@ -41,55 +46,59 @@ class Solution {
             graph[source].add(new Edges(source, dest, cost));
         }
 
-        int[] dist = new int[n];
+        // dist[node][stops]
+        int[][] dist = new int[n][k + 2];
 
         for (int i = 0; i < n; i++) {
-            dist[i] = Integer.MAX_VALUE;
+            Arrays.fill(dist[i], Integer.MAX_VALUE);
         }
 
-        dist[src] = 0;
+        dist[src][0] = 0;
 
-        Queue<Info> q = new LinkedList<>();
+        PriorityQueue<Info> q = new PriorityQueue<>();
         q.add(new Info(src, 0, 0));
 
         while (!q.isEmpty()) {
+
             Info curr = q.remove();
 
-            // At most k stops = k + 1 flights
-            if (curr.stops > k) {
+            // Check stops BEFORE returning destination
+            if (curr.stops > k + 1) {
                 continue;
             }
 
-            // Important: don't update dist directly while processing
-            int[] temp = dist.clone();
+            if (curr.v == dst) {
+                return curr.cost;
+            }
+
+            // Already used maximum number of flights
+            if (curr.stops == k + 1) {
+                continue;
+            }
 
             for (int i = 0; i < graph[curr.v].size(); i++) {
 
                 Edges e = graph[curr.v].get(i);
 
-                int u = e.src;
                 int v = e.dest;
                 int wt = e.cost;
 
-                if (curr.cost + wt < temp[v]) {
+                int newCost = curr.cost + wt;
+                int newStops = curr.stops + 1;
 
-                    temp[v] = curr.cost + wt;
+                if (newCost < dist[v][newStops]) {
+
+                    dist[v][newStops] = newCost;
 
                     q.add(new Info(
                         v,
-                        curr.cost + wt,
-                        curr.stops + 1
+                        newCost,
+                        newStops
                     ));
                 }
             }
-
-            dist = temp;
         }
 
-        if (dist[dst] == Integer.MAX_VALUE) {
-            return -1;
-        }
-
-        return dist[dst];
+        return -1;
     }
 }
