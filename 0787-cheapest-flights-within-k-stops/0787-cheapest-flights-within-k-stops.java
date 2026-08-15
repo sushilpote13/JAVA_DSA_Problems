@@ -1,4 +1,5 @@
 class Solution {
+
     public class Edges {
         int src;
         int dest;
@@ -11,7 +12,7 @@ class Solution {
         }
     }
 
-    public class Info implements Comparable<Info> {
+    public class Info {
         int v;
         int cost;
         int stops;
@@ -21,23 +22,19 @@ class Solution {
             this.cost = cost;
             this.stops = stops;
         }
-
-        @Override
-        public int compareTo(Info other) {
-            return Integer.compare(this.cost, other.cost);
-        }
     }
 
-    public int findCheapestPrice(int n, int[][] flights, int src, int dst, int k) {
+    public int findCheapestPrice(int n, int[][] flights,
+            int src, int dst, int k) {
 
-        // creating graph using flights
+        // Create graph
         ArrayList<Edges>[] graph = new ArrayList[n];
 
-        for (int i = 0; i < graph.length; i++) {
+        for (int i = 0; i < n; i++) {
             graph[i] = new ArrayList<>();
         }
 
-        // fill the graph
+        // Fill graph
         for (int i = 0; i < flights.length; i++) {
             int source = flights[i][0];
             int dest = flights[i][1];
@@ -46,59 +43,30 @@ class Solution {
             graph[source].add(new Edges(source, dest, cost));
         }
 
-        // dist[node][stops]
-        int[][] dist = new int[n][k + 2];
+        int[] dist = new int[n];
+        Arrays.fill(dist, Integer.MAX_VALUE);
+        dist[src] = 0;
 
-        for (int i = 0; i < n; i++) {
-            Arrays.fill(dist[i], Integer.MAX_VALUE);
-        }
-
-        dist[src][0] = 0;
-
-        PriorityQueue<Info> q = new PriorityQueue<>();
+        Queue<Info> q = new LinkedList<>();
         q.add(new Info(src, 0, 0));
 
         while (!q.isEmpty()) {
-
             Info curr = q.remove();
-
-            // Check stops BEFORE returning destination
-            if (curr.stops > k + 1) {
+            // More than k stops is not allowed
+            if (curr.stops > k) {
                 continue;
             }
 
-            if (curr.v == dst) {
-                return curr.cost;
-            }
-
-            // Already used maximum number of flights
-            if (curr.stops == k + 1) {
-                continue;
-            }
-
-            for (int i = 0; i < graph[curr.v].size(); i++) {
-
-                Edges e = graph[curr.v].get(i);
-
+            for (Edges e : graph[curr.v]) {
                 int v = e.dest;
-                int wt = e.cost;
-
-                int newCost = curr.cost + wt;
-                int newStops = curr.stops + 1;
-
-                if (newCost < dist[v][newStops]) {
-
-                    dist[v][newStops] = newCost;
-
-                    q.add(new Info(
-                        v,
-                        newCost,
-                        newStops
-                    ));
+                int cost = e.cost;
+                if (curr.cost + cost < dist[v]) {
+                    dist[v] = curr.cost + cost;
+                    q.add(new Info(v, dist[v], curr.stops + 1));
                 }
             }
         }
 
-        return -1;
+        return dist[dst] == Integer.MAX_VALUE ? -1 : dist[dst];
     }
 }
