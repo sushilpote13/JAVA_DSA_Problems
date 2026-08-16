@@ -1,69 +1,54 @@
 import java.util.*;
 
 class Solution {
-    public class Edges {
-        int src;
-        int dest;
-        int wt;
-
-        public Edges(int src, int dest, int wt) {
-            this.src = src;
-            this.dest = dest;
-            this.wt = wt;
-        }
-    }
-
-    public class Info implements Comparable<Info> {
-        int v;
-        int cost;
-
-        public Info(int v, int cost) {
-            this.v = v;
-            this.cost = cost;
-        }
-
-        @Override
-        public int compareTo(Info i2) {
-            return this.cost - i2.cost;
-        }
-    }
 
     public int minCostConnectPoints(int[][] points) {
+
         int n = points.length;
-        // STEP 1: Build Graph
-        ArrayList<Edges>[] graph = new ArrayList[n];
-        for (int i = 0; i < n; i++) {
-            graph[i] = new ArrayList<>();
-        }
-        for (int i = 0; i < n; i++) {
-            for (int j = i + 1; j < n; j++) {
-                int wt = Math.abs(points[i][0] - points[j][0])
-                        + Math.abs(points[i][1] - points[j][1]);
-                graph[i].add(new Edges(i, j, wt));
-                graph[j].add(new Edges(j, i, wt));
-            }
-        }
-        // STEP 2: Prim's Algorithm
+
+        int[] dist = new int[n];
         boolean[] visited = new boolean[n];
-        PriorityQueue<Info> pq = new PriorityQueue<>();
-        pq.add(new Info(0, 0));
+
+        Arrays.fill(dist, Integer.MAX_VALUE);
+
+        // Start from point 0
+        dist[0] = 0;
+
         int totalCost = 0;
-        while (!pq.isEmpty()) {
-            Info curr = pq.remove();
-            int u = curr.v;
-            int cost = curr.cost;
-            if (visited[u]) {
-                continue;
+
+        for (int i = 0; i < n; i++) {
+
+            // Find minimum cost unvisited vertex
+            int u = -1;
+
+            for (int j = 0; j < n; j++) {
+
+                if (!visited[j] &&
+                    (u == -1 || dist[j] < dist[u])) {
+
+                    u = j;
+                }
             }
+
+            // Add vertex to MST
             visited[u] = true;
-            totalCost += cost;
-            for (Edges edge : graph[u]) {
-                int v = edge.dest;
+            totalCost += dist[u];
+
+            // Update all unvisited vertices
+            for (int v = 0; v < n; v++) {
+
                 if (!visited[v]) {
-                    pq.add(new Info(v, edge.wt));
+
+                    int wt = Math.abs(points[u][0] - points[v][0])
+                           + Math.abs(points[u][1] - points[v][1]);
+
+                    if (wt < dist[v]) {
+                        dist[v] = wt;
+                    }
                 }
             }
         }
+
         return totalCost;
     }
 }
