@@ -1,66 +1,53 @@
 class Solution {
-    public class Pair implements Comparable<Pair> {
-        int val;
-        int dist;
-        public Pair(int val, int dist) {
-            this.val = val;
-            this.dist = dist;
-        }
-        @Override
-        public int compareTo(Pair p2) {
-            return this.dist - p2.dist;
-        }
-    }
-    public class Edge {
-        int src;
-        int dest;
-        int dist;
-        public Edge(int src, int dest, int dist) {
-            this.src = src;
-            this.dest = dest;
-            this.dist = dist;
-        }
-    }
+
     public int minCostConnectPoints(int[][] points) {
-        int v = points.length;
-        ArrayList<Edge>[] graph = new ArrayList[v];
-        for (int i = 0; i < v; i++) {
-            graph[i] = new ArrayList<>();
-        }
-        for (int i = 0; i < v; i++) {
 
-            for (int j = i + 1; j < v; j++) {
+        int n = points.length;
 
-                int dist =
-                    Math.abs(points[i][0] - points[j][0])
-                    + Math.abs(points[i][1] - points[j][1]);
+        int[] dist = new int[n];
+        boolean[] visited = new boolean[n];
 
-                graph[i].add(new Edge(i, j, dist));
-                graph[j].add(new Edge(j, i, dist));
-            }
+        // Initially, distance of every vertex is infinity
+        for (int i = 0; i < n; i++) {
+            dist[i] = Integer.MAX_VALUE;
         }
 
-        boolean[] visited = new boolean[v];
-        PriorityQueue<Pair> pq = new PriorityQueue<>();
-        pq.add(new Pair(0, 0));
+        // Start Prim's algorithm from point 0
+        dist[0] = 0;
+
         int totalCost = 0;
-        int count = 0;
-        while (!pq.isEmpty() && count < v) {
-            Pair curr = pq.remove();
-            int vertex = curr.val;
-            int cost = curr.dist;
-            if (visited[vertex]) {
-                continue;
+
+        for (int count = 0; count < n; count++) {
+
+            // Find the unvisited vertex with minimum distance
+            int u = -1;
+
+            for (int i = 0; i < n; i++) {
+                if (!visited[i] && (u == -1 || dist[i] < dist[u])) {
+                    u = i;
+                }
             }
-            visited[vertex] = true;
-            totalCost += cost;
-            count++;
-            for (Edge e : graph[vertex]) {
-                if (!visited[e.dest]) {
-                    pq.add(new Pair(e.dest, e.dist));
+
+            // Add this vertex to MST
+            visited[u] = true;
+            totalCost += dist[u];
+
+            // Update distances of remaining vertices
+            for (int v = 0; v < n; v++) {
+
+                if (!visited[v]) {
+
+                    int distance =
+                        Math.abs(points[u][0] - points[v][0])
+                        + Math.abs(points[u][1] - points[v][1]);
+
+                    if (distance < dist[v]) {
+                        dist[v] = distance;
+                    }
                 }
             }
         }
+
         return totalCost;
     }
 }
