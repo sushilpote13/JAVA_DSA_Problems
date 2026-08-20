@@ -21,6 +21,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0108-convert-sorted-array-to-binary-search-tree](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/0108-convert-sorted-array-to-binary-search-tree/) | Easy |
 | [0134-gas-station](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/0134-gas-station/) | Medium |
 | [0139-word-break](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/0139-word-break/) | Medium |
+| [0200-number-of-islands](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/0200-number-of-islands/) | Medium |
 | [0347-top-k-frequent-elements](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/0347-top-k-frequent-elements/) | Medium |
 | [0378-kth-smallest-element-in-a-sorted-matrix](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/0378-kth-smallest-element-in-a-sorted-matrix/) | Medium |
 | [0496-next-greater-element-i](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/0496-next-greater-element-i/) | Easy |
@@ -115,6 +116,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0037-sudoku-solver](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/0037-sudoku-solver/) | Hard |
+| [0200-number-of-islands](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/0200-number-of-islands/) | Medium |
 | [0378-kth-smallest-element-in-a-sorted-matrix](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/0378-kth-smallest-element-in-a-sorted-matrix/) | Medium |
 | [0542-01-matrix](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/0542-01-matrix/) | Medium |
 | [0733-flood-fill](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/0733-flood-fill/) | Easy |
@@ -135,6 +137,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0133-clone-graph](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/0133-clone-graph/) | Medium |
 | [0144-binary-tree-preorder-traversal](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/0144-binary-tree-preorder-traversal/) | Easy |
 | [0145-binary-tree-postorder-traversal](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/0145-binary-tree-postorder-traversal/) | Easy |
+| [0200-number-of-islands](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/0200-number-of-islands/) | Medium |
 | [0207-course-schedule](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/0207-course-schedule/) | Medium |
 | [0210-course-schedule-ii](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/0210-course-schedule-ii/) | Medium |
 | [0230-kth-smallest-element-in-a-bst](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/0230-kth-smallest-element-in-a-bst/) | Medium |
@@ -163,6 +166,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0103-binary-tree-zigzag-level-order-traversal](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/0103-binary-tree-zigzag-level-order-traversal/) | Medium |
 | [0116-populating-next-right-pointers-in-each-node](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/0116-populating-next-right-pointers-in-each-node/) | Medium |
 | [0133-clone-graph](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/0133-clone-graph/) | Medium |
+| [0200-number-of-islands](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/0200-number-of-islands/) | Medium |
 | [0207-course-schedule](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/0207-course-schedule/) | Medium |
 | [0210-course-schedule-ii](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/0210-course-schedule-ii/) | Medium |
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/0297-serialize-and-deserialize-binary-tree/) | Hard |
@@ -471,6 +475,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Union-Find
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0200-number-of-islands](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/0200-number-of-islands/) | Medium |
 | [0684-redundant-connection](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/0684-redundant-connection/) | Medium |
 | [1584-min-cost-to-connect-all-points](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/1584-min-cost-to-connect-all-points/) | Medium |
 ## Shortest Path
