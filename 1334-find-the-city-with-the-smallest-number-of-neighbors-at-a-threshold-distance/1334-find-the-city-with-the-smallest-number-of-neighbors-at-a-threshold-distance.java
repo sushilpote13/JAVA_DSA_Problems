@@ -1,96 +1,62 @@
 class Solution {
-    public class Edges {
-        int from;
-        int to;
-        int wt;
-
-        public Edges(int from, int to, int wt) {
-            this.from = from;
-            this.to = to;
-            this.wt = wt;
-        }
-    }
-
     public int findTheCity(int n, int[][] edges, int distanceThreshold) {
-        int[] frequency = new int[n];
 
-        // create a graph first 
-        ArrayList<Edges>[] graph = new ArrayList[n];
+        // Distance matrix
+        int[][] dist = new int[n][n];
 
+        // Initialize distances
         for (int i = 0; i < n; i++) {
-            graph[i] = new ArrayList<>();
-        }
-
-        for (int i = 0; i < edges.length; i++) {
-            int from = edges[i][0];
-            int to = edges[i][1];
-            int wt = edges[i][2];
-
-            graph[from].add(new Edges(from, to, wt));
-            graph[to].add(new Edges(to, from, wt));
-        }
-
-        // travel the graph 
-        for (int i = 0; i < n; i++) {
-            int vertex = i;
-
-            int[] distance = new int[n];
-            Arrays.fill(distance, Integer.MAX_VALUE);
-            distance[vertex] = 0;
-
-            PriorityQueue<Edges> pq = new PriorityQueue<>(
-                    (a, b) -> a.wt - b.wt);
-
-            pq.add(new Edges(vertex, vertex, 0));
-
-            while (!pq.isEmpty()) {
-                Edges current = pq.remove();
-
-                int currentVertex = current.to;
-                int currentDistance = current.wt;
-
-                if (currentDistance > distance[currentVertex]) {
-                    continue;
-                }
-
-                for (int j = 0; j < graph[currentVertex].size(); j++) {
-                    Edges neighbore = graph[currentVertex].get(j);
-
-                    int newDistance = currentDistance + neighbore.wt;
-
-                    if (newDistance < distance[neighbore.to] &&
-                            newDistance <= distanceThreshold) {
-
-                        distance[neighbore.to] = newDistance;
-                        pq.add(new Edges(
-                                currentVertex,
-                                neighbore.to,
-                                newDistance));
-                    }
+            for (int j = 0; j < n; j++) {
+                if (i == j) {
+                    dist[i][j] = 0;
+                } else {
+                    dist[i][j] = Integer.MAX_VALUE / 2;
                 }
             }
+        }
 
-            int total = 0;
+        // Add edges
+        for (int[] edge : edges) {
+            int u = edge[0];
+            int v = edge[1];
+            int wt = edge[2];
+
+            dist[u][v] = wt;
+            dist[v][u] = wt;
+        }
+
+        // Floyd-Warshall
+        for (int k = 0; k < n; k++) {
+            for (int i = 0; i < n; i++) {
+                for (int j = 0; j < n; j++) {
+                    dist[i][j] = Math.min(
+                        dist[i][j],
+                        dist[i][k] + dist[k][j]
+                    );
+                }
+            }
+        }
+
+        // Find city with minimum reachable neighbors
+        int result = -1;
+        int minCount = Integer.MAX_VALUE;
+
+        for (int i = 0; i < n; i++) {
+            int count = 0;
 
             for (int j = 0; j < n; j++) {
-                if (j != vertex && distance[j] <= distanceThreshold) {
-                    total++;
+                if (i != j && dist[i][j] <= distanceThreshold) {
+                    count++;
                 }
             }
 
-            frequency[i] = total;
-        }
-
-        int answer = 0;
-        int minFrequency = Integer.MAX_VALUE;
-
-        for (int i = 0; i < n; i++) {
-            if (frequency[i] <= minFrequency) {
-                minFrequency = frequency[i];
-                answer = i;
+            // <= because we need the greatest index in case of tie
+            if (count <= minCount) {
+                minCount = count;
+                result = i;
             }
         }
 
-        return answer;
+        return result;
     }
 }
