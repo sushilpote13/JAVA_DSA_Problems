@@ -1,34 +1,40 @@
 class Solution {
     public int numIslands(char[][] grid) {
-        int islands = 0;
-
-        for (int r = 0; r < grid.length; r++) {
-            for (int c = 0; c < grid[0].length; c++) {
-                if (grid[r][c] == '1') {
-                    islands++;
-                    dfs(grid, r, c);
+        int rows = grid.length;
+        int cols = grid[0].length;
+        boolean[][] visited = new boolean[rows][cols];
+        int count = 0;
+        // Main loop: find every new island
+        for (int r = 0; r < rows; r++) {
+            for (int c = 0; c < cols; c++) {
+                // Found an unvisited land cell
+                if (grid[r][c] == '1' && !visited[r][c]) {
+                    count++;
+                    dfs(grid, visited, r, c);
                 }
             }
         }
 
-        return islands;
+        return count;
     }
 
-    private void dfs(char[][] grid, int r, int c) {
-        // Out of bounds or water
+
+    public void dfs(char[][] grid, boolean[][] visited, int r, int c) {
         if (r < 0 || r >= grid.length ||
-            c < 0 || c >= grid[0].length ||
-            grid[r][c] != '1') {
+            c < 0 || c >= grid[0].length) {
             return;
         }
-
-        // Mark as visited
-        grid[r][c] = '0';
-
-        // Visit 4 directions
-        dfs(grid, r + 1, c);
-        dfs(grid, r - 1, c);
-        dfs(grid, r, c + 1);
-        dfs(grid, r, c - 1);
+        if (grid[r][c] == '0' || visited[r][c]) {
+            return;
+        }
+        visited[r][c] = true;
+        // Up
+        dfs(grid, visited, r - 1, c);
+        // Down
+        dfs(grid, visited, r + 1, c);
+        // Left
+        dfs(grid, visited, r, c - 1);
+        // Right
+        dfs(grid, visited, r, c + 1);
     }
 }
