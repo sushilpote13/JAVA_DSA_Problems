@@ -1,16 +1,25 @@
 class Solution {
+
+    int[][] directions = {
+        {-1, 0},   // up
+        {1, 0},    // down
+        {0, -1},   // left
+        {0, 1}     // right
+    };
+
     public int numIslands(char[][] grid) {
-        int rows = grid.length;
-        int cols = grid[0].length;
-        boolean[][] visited = new boolean[rows][cols];
+
         int count = 0;
-        // Main loop: find every new island
-        for (int r = 0; r < rows; r++) {
-            for (int c = 0; c < cols; c++) {
-                // Found an unvisited land cell
-                if (grid[r][c] == '1' && !visited[r][c]) {
+
+        for (int r = 0; r < grid.length; r++) {
+
+            for (int c = 0; c < grid[0].length; c++) {
+
+                if (grid[r][c] == '1') {
+
                     count++;
-                    dfs(grid, visited, r, c);
+
+                    dfs(grid, r, c);
                 }
             }
         }
@@ -18,23 +27,25 @@ class Solution {
         return count;
     }
 
+    private void dfs(char[][] grid, int r, int c) {
 
-    public void dfs(char[][] grid, boolean[][] visited, int r, int c) {
         if (r < 0 || r >= grid.length ||
-            c < 0 || c >= grid[0].length) {
+            c < 0 || c >= grid[0].length ||
+            grid[r][c] == '0') {
+
             return;
         }
-        if (grid[r][c] == '0' || visited[r][c]) {
-            return;
+
+        // Mark visited
+        grid[r][c] = '0';
+
+        // Visit all 4 neighbors
+        for (int[] dir : directions) {
+
+            int newRow = r + dir[0];
+            int newCol = c + dir[1];
+
+            dfs(grid, newRow, newCol);
         }
-        visited[r][c] = true;
-        // Up
-        dfs(grid, visited, r - 1, c);
-        // Down
-        dfs(grid, visited, r + 1, c);
-        // Left
-        dfs(grid, visited, r, c - 1);
-        // Right
-        dfs(grid, visited, r, c + 1);
     }
 }
