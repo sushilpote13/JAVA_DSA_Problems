@@ -1,54 +1,88 @@
-import java.util.*;
-
 class Solution {
+
     public int[][] updateMatrix(int[][] mat) {
-        int m = mat.length;
-        int n = mat[0].length;
 
-        int[][] dist = new int[m][n];
-        Queue<int[]> q = new LinkedList<>();
+        int row = 0;
+        int col = 0;
 
-        // Initialize:
-        // 0-cells have distance 0 and go into the queue.
-        // 1-cells start as unvisited (-1).
-        for (int i = 0; i < m; i++) {
-            Arrays.fill(dist[i], -1);
+        // Convert every 1 into a very large value
+        // because initially we don't know its distance.
+        while (row < mat.length) {
 
-            for (int j = 0; j < n; j++) {
-                if (mat[i][j] == 0) {
-                    dist[i][j] = 0;
-                    q.offer(new int[]{i, j});
-                }
+            if (mat[row][col] == 1) {
+                mat[row][col] = Integer.MAX_VALUE / 2;
+            }
+
+            col++;
+
+            if (col == mat[0].length) {
+                col = 0;
+                row++;
             }
         }
 
-        int[][] directions = {
-            {1, 0},
-            {-1, 0},
-            {0, 1},
-            {0, -1}
-        };
+        // Pass 1: Check LEFT + UP
+        row = 0;
+        col = 0;
 
-        // BFS
-        while (!q.isEmpty()) {
-            int[] curr = q.poll();
-            int r = curr[0];
-            int c = curr[1];
+        while (row < mat.length) {
 
-            for (int[] dir : directions) {
-                int nr = r + dir[0];
-                int nc = c + dir[1];
+            if (mat[row][col] != 0) {
 
-                if (nr >= 0 && nr < m &&
-                    nc >= 0 && nc < n &&
-                    dist[nr][nc] == -1) {
-
-                    dist[nr][nc] = dist[r][c] + 1;
-                    q.offer(new int[]{nr, nc});
+                // LEFT
+                if (col - 1 >= 0) {
+                    mat[row][col] =
+                        Math.min(mat[row][col],
+                                 mat[row][col - 1] + 1);
                 }
+
+                // UP
+                if (row - 1 >= 0) {
+                    mat[row][col] =
+                        Math.min(mat[row][col],
+                                 mat[row - 1][col] + 1);
+                }
+            }
+
+            col++;
+
+            if (col == mat[0].length) {
+                col = 0;
+                row++;
             }
         }
 
-        return dist;
+        // Pass 2: Check RIGHT + DOWN
+        row = mat.length - 1;
+        col = mat[0].length - 1;
+
+        while (row >= 0) {
+
+            if (mat[row][col] != 0) {
+
+                // RIGHT
+                if (col + 1 < mat[0].length) {
+                    mat[row][col] =
+                        Math.min(mat[row][col],
+                                 mat[row][col + 1] + 1);
+                }
+
+                // DOWN
+                if (row + 1 < mat.length) {
+                    mat[row][col] =
+                        Math.min(mat[row][col],
+                                 mat[row + 1][col] + 1);
+                }
+            }
+
+            col--;
+
+            if (col < 0) {
+                col = mat[0].length - 1;
+                row--;
+            }
+        }
+
+        return mat;
     }
 }
