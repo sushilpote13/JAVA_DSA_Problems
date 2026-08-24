@@ -1,46 +1,50 @@
 class Solution {
     public int removeStones(int[][] stones) {
-        int n = stones.length;
+        int[] parent = new int[20002];
+        boolean[] used = new boolean[20002];
 
-        int[] parent = new int[n];
-        int components = n;
-
-        for (int i = 0; i < n; i++) {
+        for (int i = 0; i < parent.length; i++)
             parent[i] = i;
-        }
 
-        for (int i = 0; i < n; i++) {
-            for (int j = i + 1; j < n; j++) {
-                if (stones[i][0] == stones[j][0] ||
-                    stones[i][1] == stones[j][1]) {
+        int components = 0;
 
-                    if (union(parent, i, j)) {
-                        components--;
-                    }
-                }
+        for (int[] s : stones) {
+            int r = s[0];
+            int c = s[1] + 10001;
+
+            if (!used[r]) {
+                used[r] = true;
+                components++;
             }
+
+            if (!used[c]) {
+                used[c] = true;
+                components++;
+            }
+
+            if (union(parent, r, c))
+                components--;
         }
 
-        return n - components;
+        return stones.length - components;
     }
 
-    private int find(int[] parent, int x) {
-        while (x != parent[x]) {
-            parent[x] = parent[parent[x]];
-            x = parent[x];
+    private int find(int[] p, int x) {
+        while (p[x] != x) {
+            p[x] = p[p[x]];
+            x = p[x];
         }
         return x;
     }
 
-    private boolean union(int[] parent, int a, int b) {
-        int pa = find(parent, a);
-        int pb = find(parent, b);
+    private boolean union(int[] p, int a, int b) {
+        a = find(p, a);
+        b = find(p, b);
 
-        if (pa == pb) {
+        if (a == b)
             return false;
-        }
 
-        parent[pb] = pa;
+        p[b] = a;
         return true;
     }
 }
