@@ -94,6 +94,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0787-cheapest-flights-within-k-stops](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/0787-cheapest-flights-within-k-stops/) | Medium |
 | [1334-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/1334-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance/) | Medium |
 | [1483-kth-ancestor-of-a-tree-node](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/1483-kth-ancestor-of-a-tree-node/) | Hard |
+| [1976-number-of-ways-to-arrive-at-destination](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/1976-number-of-ways-to-arrive-at-destination/) | Medium |
 | [3193-count-the-number-of-inversions](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/3193-count-the-number-of-inversions/) | Hard |
 ## Hash Table
 | Problem Name | Difficulty |
@@ -471,11 +472,13 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0947-most-stones-removed-with-same-row-or-column](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/0947-most-stones-removed-with-same-row-or-column/) | Medium |
 | [1334-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/1334-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance/) | Medium |
 | [1584-min-cost-to-connect-all-points](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/1584-min-cost-to-connect-all-points/) | Medium |
+| [1976-number-of-ways-to-arrive-at-destination](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/1976-number-of-ways-to-arrive-at-destination/) | Medium |
 ## Topological Sort
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0207-course-schedule](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/0207-course-schedule/) | Medium |
 | [0210-course-schedule-ii](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/0210-course-schedule-ii/) | Medium |
+| [1976-number-of-ways-to-arrive-at-destination](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/1976-number-of-ways-to-arrive-at-destination/) | Medium |
 ## Directed Acyclic Graph
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -493,6 +496,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- | ------- |
 | [0787-cheapest-flights-within-k-stops](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/0787-cheapest-flights-within-k-stops/) | Medium |
 | [1334-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/1334-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance/) | Medium |
+| [1976-number-of-ways-to-arrive-at-destination](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/1976-number-of-ways-to-arrive-at-destination/) | Medium |
 ## Minimum Spanning Tree
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -513,6 +517,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [1334-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/1334-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance/) | Medium |
+| [1976-number-of-ways-to-arrive-at-destination](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/1976-number-of-ways-to-arrive-at-destination/) | Medium |
 ## Bellman–Ford Algorithm
 | Problem Name | Difficulty |
 | ------- | ------- |
