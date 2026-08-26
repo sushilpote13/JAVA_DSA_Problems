@@ -4,6 +4,7 @@ class Solution {
         vist[u] = true;
         for (int i = 0; i < graph.length; i++) {
             if (graph[u][i] == 1 && !vist[i]) {
+                vist[i] = true;
                 // vist that node
                 vistNode(i, graph, vist);
             }
