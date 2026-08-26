@@ -1,35 +1,41 @@
 class Solution {
 
+    int timer = 0;
+
     public void dfs(int curr, int parent,
                     ArrayList<Integer>[] graph,
                     boolean[] vis,
                     int[] dt,
                     int[] low,
-                    int time,
                     List<List<Integer>> ans) {
 
         vis[curr] = true;
-        dt[curr] = low[curr] = time;
 
-        for (int neighbore : graph[curr]) {
+        dt[curr] = low[curr] = timer++;
 
-            if (neighbore == parent) {
+        for (int neighbor : graph[curr]) {
+
+            // Don't go back to parent
+            if (neighbor == parent) {
                 continue;
             }
 
-            if (vis[neighbore]) {
-                low[curr] = Math.min(low[curr], dt[neighbore]);
-            } 
+            // Back edge
+            if (vis[neighbor]) {
+                low[curr] = Math.min(low[curr], dt[neighbor]);
+            }
+
+            // Unvisited neighbor
             else {
 
-                dfs(neighbore, curr, graph,
-                    vis, dt, low, time + 1, ans);
+                dfs(neighbor, curr, graph,
+                    vis, dt, low, ans);
 
-                low[curr] = Math.min(low[curr], low[neighbore]);
+                low[curr] = Math.min(low[curr], low[neighbor]);
 
-                // Critical connection
-                if (low[neighbore] > dt[curr]) {
-                    ans.add(Arrays.asList(curr, neighbore));
+                // Critical edge
+                if (low[neighbor] > dt[curr]) {
+                    ans.add(Arrays.asList(curr, neighbor));
                 }
             }
         }
@@ -38,15 +44,14 @@ class Solution {
     public List<List<Integer>> criticalConnections(
             int n, List<List<Integer>> connections) {
 
-        // Create graph
         ArrayList<Integer>[] graph = new ArrayList[n];
 
         for (int i = 0; i < n; i++) {
             graph[i] = new ArrayList<>();
         }
 
-        // Fill graph
         for (List<Integer> edge : connections) {
+
             int u = edge.get(0);
             int v = edge.get(1);
 
@@ -60,10 +65,9 @@ class Solution {
         int[] dt = new int[n];
         int[] low = new int[n];
 
-        // Handle disconnected graph
         for (int i = 0; i < n; i++) {
             if (!vis[i]) {
-                dfs(i, -1, graph, vis, dt, low, 0, ans);
+                dfs(i, -1, graph, vis, dt, low, ans);
             }
         }
 
