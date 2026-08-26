@@ -1,26 +1,28 @@
 class Solution {
-    public static void vistNode(int u, int[][] graph, boolean[] vist) {
-        // vist the ndoe
-        vist[u] = true;
+
+    public static void visitNode(int u, int[][] graph, boolean[] visited) {
+        visited[u] = true;
+
         for (int i = 0; i < graph.length; i++) {
-            if (graph[u][i] == 1 && !vist[i]) {
-                vist[i] = true;
-                // vist that node
-                vistNode(i, graph, vist);
+            if (graph[u][i] == 1 && !visited[i]) {
+                visitNode(i, graph, visited);
             }
         }
     }
 
     public int findCircleNum(int[][] isConnected) {
+
         int n = isConnected.length;
-        boolean[] vist = new boolean[n];
+        boolean[] visited = new boolean[n];
+
         int count = 0;
+
         for (int i = 0; i < n; i++) {
-            for (int j = 0; j < n; j++) {
-                if (isConnected[i][j] == 1 && !vist[i]) {
-                    count++;
-                    vistNode(i, isConnected, vist);
-                }
+
+            if (!visited[i]) {
+                count++;
+
+                visitNode(i, isConnected, visited);
             }
         }
 
