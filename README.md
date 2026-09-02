@@ -86,6 +86,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0208-implement-trie-prefix-tree](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/0208-implement-trie-prefix-tree/) | Medium |
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/0297-serialize-and-deserialize-binary-tree/) | Hard |
 | [0387-first-unique-character-in-a-string](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/0387-first-unique-character-in-a-string/) | Easy |
+| [0516-longest-palindromic-subsequence](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/0516-longest-palindromic-subsequence/) | Medium |
 ## Dynamic Programming
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -94,6 +95,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0131-palindrome-partitioning](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/0131-palindrome-partitioning/) | Medium |
 | [0139-word-break](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/0139-word-break/) | Medium |
 | [0198-house-robber](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/0198-house-robber/) | Medium |
+| [0516-longest-palindromic-subsequence](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/0516-longest-palindromic-subsequence/) | Medium |
 | [0542-01-matrix](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/0542-01-matrix/) | Medium |
 | [0787-cheapest-flights-within-k-stops](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/0787-cheapest-flights-within-k-stops/) | Medium |
 | [1334-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/1334-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance/) | Medium |
