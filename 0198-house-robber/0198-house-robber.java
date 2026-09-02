@@ -1,28 +1,14 @@
 class Solution {
     public int rob(int[] nums) {
-        int[] dp = new int[nums.length + 1];
-        Arrays.fill(dp, -1);
-        return solve(nums, nums.length - 1, dp);
-    }
+        int n = nums.length;
+        int[] dp = new int[n + 1];
 
-    public int solve(int[] nums, int i, int[] dp) {
-
-        // Base case
-        if (i < 0) {
-            return 0;
+        // base condition 
+        dp[0] = 0;
+        dp[1] = nums[0];
+        for (int house = 2; house <= n; house++) {
+            dp[house] = Math.max(nums[house-1] + dp[house - 2], dp[house - 1]);
         }
-        // check if it is calculated in dp 
-        if (dp[i] != -1) {
-            return dp[i];
-        }
-
-        // Choice 1: Rob current house
-        int robCurrent = nums[i] + solve(nums, i - 2, dp);
-
-        // Choice 2: Skip current house
-        int skipCurrent = solve(nums, i - 1, dp);
-
-        // Take the maximum
-        return dp[i] = Math.max(robCurrent, skipCurrent);
+        return dp[n];
     }
 }
