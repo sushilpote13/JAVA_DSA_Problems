@@ -1,41 +1,39 @@
 class Solution {
-    public int longestPalindromeSubseq(String s) {
 
-        int n = s.length();
+    // Longest Common Subsequence
+    public int longestCommonSubsequence(String text1, String text2) {
 
-        // dp[i][j] = longest palindromic subsequence
-        // from index i to index j
-        int[][] dp = new int[n][n];
+        int n = text1.length();
+        int m = text2.length();
 
-        // Base case:
-        // A single character is always a palindrome of length 1
-        for (int i = 0; i < n; i++) {
-            dp[i][i] = 1;
-        }
+        // 2D DP array
+        int[][] dp = new int[n + 1][m + 1];
 
-        // Consider substrings of length 2, 3, 4, ...
-        for (int len = 2; len <= n; len++) {
+        // Tabulation
+        for (int i = 1; i <= n; i++) {
+            for (int j = 1; j <= m; j++) {
 
-            for (int i = 0; i + len - 1 < n; i++) {
-
-                int j = i + len - 1;
-
-                // If both characters are same
-                if (s.charAt(i) == s.charAt(j)) {
-
-                    dp[i][j] = 2 + dp[i + 1][j - 1];
-
+                if (text1.charAt(i - 1) == text2.charAt(j - 1)) {
+                    dp[i][j] = 1 + dp[i - 1][j - 1];
                 } else {
-
-                    // Skip either left or right character
                     dp[i][j] = Math.max(
-                        dp[i + 1][j],
+                        dp[i - 1][j],
                         dp[i][j - 1]
                     );
                 }
             }
         }
 
-        return dp[0][n - 1];
+        return dp[n][m];
+    }
+
+    // Longest Palindromic Subsequence
+    public int longestPalindromeSubseq(String s) {
+
+        // Reverse the string
+        String s2 = new StringBuilder(s).reverse().toString();
+
+        // LPS = LCS(s, reverse(s))
+        return longestCommonSubsequence(s, s2);
     }
 }
