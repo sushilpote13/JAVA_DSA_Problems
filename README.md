@@ -26,6 +26,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0200-number-of-islands](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/0200-number-of-islands/) | Medium |
 | [0347-top-k-frequent-elements](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/0347-top-k-frequent-elements/) | Medium |
 | [0378-kth-smallest-element-in-a-sorted-matrix](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/0378-kth-smallest-element-in-a-sorted-matrix/) | Medium |
+| [0416-partition-equal-subset-sum](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/0416-partition-equal-subset-sum/) | Medium |
 | [0496-next-greater-element-i](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/0496-next-greater-element-i/) | Easy |
 | [0503-next-greater-element-ii](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/0503-next-greater-element-ii/) | Medium |
 | [0540-single-element-in-a-sorted-array](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/0540-single-element-in-a-sorted-array/) | Medium |
@@ -95,6 +96,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0131-palindrome-partitioning](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/0131-palindrome-partitioning/) | Medium |
 | [0139-word-break](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/0139-word-break/) | Medium |
 | [0198-house-robber](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/0198-house-robber/) | Medium |
+| [0416-partition-equal-subset-sum](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/0416-partition-equal-subset-sum/) | Medium |
 | [0516-longest-palindromic-subsequence](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/0516-longest-palindromic-subsequence/) | Medium |
 | [0542-01-matrix](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/0542-01-matrix/) | Medium |
 | [0787-cheapest-flights-within-k-stops](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/0787-cheapest-flights-within-k-stops/) | Medium |
@@ -555,4 +557,12 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [1192-critical-connections-in-a-network](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/1192-critical-connections-in-a-network/) | Hard |
+## Knapsack Problem
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0416-partition-equal-subset-sum](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/0416-partition-equal-subset-sum/) | Medium |
+## 0-1 Knapsack
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0416-partition-equal-subset-sum](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/0416-partition-equal-subset-sum/) | Medium |
 <!---LeetCode Topics End-->
