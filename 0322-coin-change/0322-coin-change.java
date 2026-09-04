@@ -1,40 +1,24 @@
-import java.util.Arrays;
-
 class Solution {
     public int coinChange(int[] coins, int amount) {
-        // creating variables
-        int n = coins.length;
-        int[][] dp = new int[n + 1][amount + 1];
 
-        // base condition
-        for (int i = 1; i <= amount; i++) {
-            dp[0][i] = -1;
-        }
+        int INF = amount + 1;
+        int[] dp = new int[amount + 1];
 
-        // unbounded knapsack
-        for (int i = 1; i <= n; i++) {
-            for (int j = 0; j <= amount; j++) {
-                // check the validity
-                if (coins[i - 1] <= j) {
-                    int use = dp[i][j - coins[i - 1]];
-                    int skip = dp[i - 1][j];
+        Arrays.fill(dp, INF);
 
-                    if (use == -1 && skip == -1) {
-                        dp[i][j] = -1;
-                    } else if (use == -1) {
-                        dp[i][j] = skip;
-                    } else if (skip == -1) {
-                        dp[i][j] = 1 + use;
-                    } else {
-                        dp[i][j] = Math.min(1 + use, skip);
-                    }
+        // Base condition 
+        dp[0] = 0;
 
-                } else {
-                    dp[i][j] = dp[i - 1][j];
-                }
+        // Unbounded Knapsack 
+        for (int coin : coins) {
+            for (int j = coin; j <= amount; j++) {
+
+                dp[j] = Math.min(
+                        dp[j],
+                        1 + dp[j - coin]);
             }
         }
 
-        return dp[n][amount];
+        return dp[amount] == INF ? -1 : dp[amount];
     }
 }
