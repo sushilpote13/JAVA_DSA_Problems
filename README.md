@@ -24,6 +24,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0139-word-break](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/0139-word-break/) | Medium |
 | [0198-house-robber](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/0198-house-robber/) | Medium |
 | [0200-number-of-islands](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/0200-number-of-islands/) | Medium |
+| [0322-coin-change](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/0322-coin-change/) | Medium |
 | [0347-top-k-frequent-elements](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/0347-top-k-frequent-elements/) | Medium |
 | [0378-kth-smallest-element-in-a-sorted-matrix](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/0378-kth-smallest-element-in-a-sorted-matrix/) | Medium |
 | [0416-partition-equal-subset-sum](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/0416-partition-equal-subset-sum/) | Medium |
@@ -98,6 +99,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0131-palindrome-partitioning](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/0131-palindrome-partitioning/) | Medium |
 | [0139-word-break](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/0139-word-break/) | Medium |
 | [0198-house-robber](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/0198-house-robber/) | Medium |
+| [0322-coin-change](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/0322-coin-change/) | Medium |
 | [0416-partition-equal-subset-sum](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/0416-partition-equal-subset-sum/) | Medium |
 | [0494-target-sum](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/0494-target-sum/) | Medium |
 | [0516-longest-palindromic-subsequence](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/0516-longest-palindromic-subsequence/) | Medium |
@@ -188,6 +190,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0207-course-schedule](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/0207-course-schedule/) | Medium |
 | [0210-course-schedule-ii](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/0210-course-schedule-ii/) | Medium |
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/0297-serialize-and-deserialize-binary-tree/) | Hard |
+| [0322-coin-change](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/0322-coin-change/) | Medium |
 | [0542-01-matrix](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/0542-01-matrix/) | Medium |
 | [0547-number-of-provinces](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/0547-number-of-provinces/) | Medium |
 | [0662-maximum-width-of-binary-tree](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/0662-maximum-width-of-binary-tree/) | Medium |
@@ -563,6 +566,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Knapsack Problem
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0322-coin-change](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/0322-coin-change/) | Medium |
 | [0416-partition-equal-subset-sum](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/0416-partition-equal-subset-sum/) | Medium |
 | [0494-target-sum](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/0494-target-sum/) | Medium |
 ## 0-1 Knapsack
@@ -570,4 +574,8 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- | ------- |
 | [0416-partition-equal-subset-sum](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/0416-partition-equal-subset-sum/) | Medium |
 | [0494-target-sum](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/0494-target-sum/) | Medium |
+## Complete Knapsack
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0322-coin-change](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/0322-coin-change/) | Medium |
 <!---LeetCode Topics End-->
