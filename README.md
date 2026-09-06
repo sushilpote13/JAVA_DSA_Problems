@@ -101,6 +101,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0072-edit-distance](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/0072-edit-distance/) | Medium |
+| [0096-unique-binary-search-trees](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/0096-unique-binary-search-trees/) | Medium |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/0121-best-time-to-buy-and-sell-stock/) | Easy |
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/0122-best-time-to-buy-and-sell-stock-ii/) | Medium |
 | [0124-binary-tree-maximum-path-sum](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/0124-binary-tree-maximum-path-sum/) | Hard |
@@ -266,6 +267,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- | ------- |
 | [0002-add-two-numbers](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/0002-add-two-numbers/) | Medium |
 | [0050-powx-n](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/0050-powx-n/) | Medium |
+| [0096-unique-binary-search-trees](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/0096-unique-binary-search-trees/) | Medium |
 ## Recursion
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -361,6 +363,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0094-binary-tree-inorder-traversal](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/0094-binary-tree-inorder-traversal/) | Easy |
+| [0096-unique-binary-search-trees](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/0096-unique-binary-search-trees/) | Medium |
 | [0098-validate-binary-search-tree](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/0098-validate-binary-search-tree/) | Medium |
 | [0099-recover-binary-search-tree](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/0099-recover-binary-search-tree/) | Medium |
 | [0100-same-tree](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/0100-same-tree/) | Easy |
@@ -396,6 +399,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0094-binary-tree-inorder-traversal](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/0094-binary-tree-inorder-traversal/) | Easy |
+| [0096-unique-binary-search-trees](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/0096-unique-binary-search-trees/) | Medium |
 | [0098-validate-binary-search-tree](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/0098-validate-binary-search-tree/) | Medium |
 | [0099-recover-binary-search-tree](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/0099-recover-binary-search-tree/) | Medium |
 | [0100-same-tree](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/0100-same-tree/) | Easy |
@@ -429,6 +433,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Binary Search Tree
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0096-unique-binary-search-trees](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/0096-unique-binary-search-trees/) | Medium |
 | [0098-validate-binary-search-tree](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/0098-validate-binary-search-tree/) | Medium |
 | [0099-recover-binary-search-tree](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/0099-recover-binary-search-tree/) | Medium |
 | [0108-convert-sorted-array-to-binary-search-tree](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/0108-convert-sorted-array-to-binary-search-tree/) | Easy |
