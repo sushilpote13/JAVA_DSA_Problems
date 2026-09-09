@@ -23,8 +23,10 @@ class Solution {
             String substring = s.substring(start, i + 1);
             if (checkPalindrome(substring)) {
                 current.add(substring);
+
                 // recursion code 
                 recursive(result, current, s, i + 1);
+                
                 // backtaring
                 current.remove(current.size() - 1);
             }
