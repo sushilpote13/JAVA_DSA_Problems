@@ -1,50 +1,34 @@
 class Solution {
-
     public int minCost(int n, int[] cuts) {
         int m = cuts.length;
-
-        // Add 0 and n
+        // creating an array 
         int[] arr = new int[m + 2];
         arr[0] = 0;
         arr[m + 1] = n;
-
         for (int i = 0; i < m; i++) {
             arr[i + 1] = cuts[i];
         }
 
+        // sort the array if not 
         Arrays.sort(arr);
 
+        // DP table
         int[][] dp = new int[m + 2][m + 2];
 
-        return solve(0, m + 1, arr, dp);
-    }
+        // len - distance between i and j
+        for (int len = 2; len < m + 2; len++) {
+            for (int i = 0; i + len < m + 2; i++) {
+                int j = i + len;
+                dp[i][j] = Integer.MAX_VALUE;
 
-    private int solve(int left, int right, int[] cuts, int[][] dp) {
+                for (int k = i + 1; k < j; k++) {
+                    int cost = arr[j] - arr[i] + dp[i][k] + dp[k][j];
 
-        // No cut between left and right
-        if (right - left <= 1) {
-            return 0;
+                    dp[i][j] = Math.min(dp[i][j], cost);
+                }
+            }
         }
 
-        if (dp[left][right] != 0) {
-            return dp[left][right];
-        }
-
-        int ans = Integer.MAX_VALUE;
-
-        // Try EVERY possible cut between left and right
-        for (int i = left + 1; i < right; i++) {
-
-            int cost = cuts[right] - cuts[left];
-
-            cost += solve(left, i, cuts, dp);
-            cost += solve(i, right, cuts, dp);
-
-            ans = Math.min(ans, cost);
-        }
-
-        dp[left][right] = ans;
-
-        return ans;
+        return dp[0][m+1];
     }
 }
