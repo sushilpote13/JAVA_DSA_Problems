@@ -23,6 +23,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/0122-best-time-to-buy-and-sell-stock-ii/) | Medium |
 | [0134-gas-station](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/0134-gas-station/) | Medium |
 | [0139-word-break](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/0139-word-break/) | Medium |
+| [0152-maximum-product-subarray](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/0152-maximum-product-subarray/) | Medium |
 | [0198-house-robber](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/0198-house-robber/) | Medium |
 | [0200-number-of-islands](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/0200-number-of-islands/) | Medium |
 | [0300-longest-increasing-subsequence](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/0300-longest-increasing-subsequence/) | Medium |
@@ -108,6 +109,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0124-binary-tree-maximum-path-sum](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/0124-binary-tree-maximum-path-sum/) | Hard |
 | [0131-palindrome-partitioning](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/0131-palindrome-partitioning/) | Medium |
 | [0139-word-break](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/0139-word-break/) | Medium |
+| [0152-maximum-product-subarray](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/0152-maximum-product-subarray/) | Medium |
 | [0198-house-robber](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/0198-house-robber/) | Medium |
 | [0300-longest-increasing-subsequence](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/0300-longest-increasing-subsequence/) | Medium |
 | [0322-coin-change](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/0322-coin-change/) | Medium |
