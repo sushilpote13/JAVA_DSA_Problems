@@ -1,20 +1,41 @@
 class Solution {
     public int maxProduct(int[] nums) {
-        int maxProduct = nums[0];
-        int maxEnding = nums[0];
-        int minEnding = nums[0];
-        for (int i = 1; i < nums.length; i++) {
+
+        int n = nums.length;
+
+        int[] dpMax = new int[n];
+        int[] dpMin = new int[n];
+
+        // Base case
+        dpMax[0] = nums[0];
+        dpMin[0] = nums[0];
+
+        int ans = nums[0];
+
+        // Fill DP table
+        for (int i = 1; i < n; i++) {
+
             int num = nums[i];
-            if (num < 0) {
-                int temp = maxEnding;
-                maxEnding = minEnding;
-                minEnding = temp;
-            }
-            maxEnding = Math.max(num, maxEnding * num);
-            minEnding = Math.min(num, minEnding * num);
-            maxProduct = Math.max(maxProduct, maxEnding);
+
+            dpMax[i] = Math.max(
+                num,
+                Math.max(
+                    num * dpMax[i - 1],
+                    num * dpMin[i - 1]
+                )
+            );
+
+            dpMin[i] = Math.min(
+                num,
+                Math.min(
+                    num * dpMax[i - 1],
+                    num * dpMin[i - 1]
+                )
+            );
+
+            ans = Math.max(ans, dpMax[i]);
         }
 
-        return maxProduct;
+        return ans;
     }
 }
