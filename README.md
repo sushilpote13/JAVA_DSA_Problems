@@ -106,6 +106,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0387-first-unique-character-in-a-string](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/0387-first-unique-character-in-a-string/) | Easy |
 | [0516-longest-palindromic-subsequence](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/0516-longest-palindromic-subsequence/) | Medium |
 | [1143-longest-common-subsequence](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/1143-longest-common-subsequence/) | Medium |
+| [1768-merge-strings-alternately](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/1768-merge-strings-alternately/) | Easy |
 ## Dynamic Programming
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -323,6 +324,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0234-palindrome-linked-list](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/0234-palindrome-linked-list/) | Easy |
 | [0295-find-median-from-data-stream](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/0295-find-median-from-data-stream/) | Hard |
 | [0876-middle-of-the-linked-list](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/0876-middle-of-the-linked-list/) | Easy |
+| [1768-merge-strings-alternately](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/1768-merge-strings-alternately/) | Easy |
 | [2035-partition-array-into-two-arrays-to-minimize-sum-difference](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/master/2035-partition-array-into-two-arrays-to-minimize-sum-difference) |
 ## Doubly-Linked List
 | Problem Name | Difficulty |
