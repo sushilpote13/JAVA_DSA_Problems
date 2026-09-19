@@ -105,6 +105,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/0297-serialize-and-deserialize-binary-tree/) | Hard |
 | [0387-first-unique-character-in-a-string](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/0387-first-unique-character-in-a-string/) | Easy |
 | [0516-longest-palindromic-subsequence](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/0516-longest-palindromic-subsequence/) | Medium |
+| [1071-greatest-common-divisor-of-strings](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/1071-greatest-common-divisor-of-strings/) | Easy |
 | [1143-longest-common-subsequence](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/1143-longest-common-subsequence/) | Medium |
 | [1768-merge-strings-alternately](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/1768-merge-strings-alternately/) | Easy |
 ## Dynamic Programming
@@ -286,6 +287,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0002-add-two-numbers](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/0002-add-two-numbers/) | Medium |
 | [0050-powx-n](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/0050-powx-n/) | Medium |
 | [0096-unique-binary-search-trees](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/0096-unique-binary-search-trees/) | Medium |
+| [1071-greatest-common-divisor-of-strings](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/1071-greatest-common-divisor-of-strings/) | Easy |
 ## Recursion
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -634,4 +636,12 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [2035-partition-array-into-two-arrays-to-minimize-sum-difference](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/master/2035-partition-array-into-two-arrays-to-minimize-sum-difference) |
+## Euclidean Algorithm
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [1071-greatest-common-divisor-of-strings](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/1071-greatest-common-divisor-of-strings/) | Easy |
+## Greatest Common Divisor
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [1071-greatest-common-divisor-of-strings](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/1071-greatest-common-divisor-of-strings/) | Easy |
 <!---LeetCode Topics End-->
