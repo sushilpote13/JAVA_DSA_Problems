@@ -60,6 +60,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0378-kth-smallest-element-in-a-sorted-matrix](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/0378-kth-smallest-element-in-a-sorted-matrix/) | Medium |
 | [0540-single-element-in-a-sorted-array](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/0540-single-element-in-a-sorted-array/) | Medium |
 | [0852-peak-index-in-a-mountain-array](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/0852-peak-index-in-a-mountain-array/) | Medium |
+| [0887-super-egg-drop](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/0887-super-egg-drop/) | Hard |
 | [1483-kth-ancestor-of-a-tree-node](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/1483-kth-ancestor-of-a-tree-node/) | Hard |
 | [1671-minimum-number-of-removals-to-make-mountain-array](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/1671-minimum-number-of-removals-to-make-mountain-array/) | Hard |
 | [2035-partition-array-into-two-arrays-to-minimize-sum-difference](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/master/2035-partition-array-into-two-arrays-to-minimize-sum-difference) |
@@ -128,6 +129,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0516-longest-palindromic-subsequence](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/0516-longest-palindromic-subsequence/) | Medium |
 | [0542-01-matrix](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/0542-01-matrix/) | Medium |
 | [0787-cheapest-flights-within-k-stops](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/0787-cheapest-flights-within-k-stops/) | Medium |
+| [0887-super-egg-drop](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/0887-super-egg-drop/) | Hard |
 | [1143-longest-common-subsequence](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/1143-longest-common-subsequence/) | Medium |
 | [1334-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/1334-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance/) | Medium |
 | [1483-kth-ancestor-of-a-tree-node](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/1483-kth-ancestor-of-a-tree-node/) | Hard |
@@ -287,6 +289,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0002-add-two-numbers](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/0002-add-two-numbers/) | Medium |
 | [0050-powx-n](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/0050-powx-n/) | Medium |
 | [0096-unique-binary-search-trees](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/0096-unique-binary-search-trees/) | Medium |
+| [0887-super-egg-drop](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/0887-super-egg-drop/) | Hard |
 | [1071-greatest-common-divisor-of-strings](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/1071-greatest-common-divisor-of-strings/) | Easy |
 ## Recursion
 | Problem Name | Difficulty |
