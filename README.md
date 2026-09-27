@@ -31,6 +31,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0347-top-k-frequent-elements](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/0347-top-k-frequent-elements/) | Medium |
 | [0378-kth-smallest-element-in-a-sorted-matrix](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/0378-kth-smallest-element-in-a-sorted-matrix/) | Medium |
 | [0416-partition-equal-subset-sum](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/0416-partition-equal-subset-sum/) | Medium |
+| [0421-maximum-xor-of-two-numbers-in-an-array](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/0421-maximum-xor-of-two-numbers-in-an-array/) | Medium |
 | [0455-assign-cookies](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/0455-assign-cookies/) | Easy |
 | [0494-target-sum](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/0494-target-sum/) | Medium |
 | [0496-next-greater-element-i](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/0496-next-greater-element-i/) | Easy |
@@ -155,6 +156,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0208-implement-trie-prefix-tree](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/0208-implement-trie-prefix-tree/) | Medium |
 | [0347-top-k-frequent-elements](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/0347-top-k-frequent-elements/) | Medium |
 | [0387-first-unique-character-in-a-string](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/0387-first-unique-character-in-a-string/) | Easy |
+| [0421-maximum-xor-of-two-numbers-in-an-array](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/0421-maximum-xor-of-two-numbers-in-an-array/) | Medium |
 | [0496-next-greater-element-i](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/0496-next-greater-element-i/) | Easy |
 | [0632-smallest-range-covering-elements-from-k-lists](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/0632-smallest-range-covering-elements-from-k-lists/) | Hard |
 | [0947-most-stones-removed-with-same-row-or-column](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/0947-most-stones-removed-with-same-row-or-column/) | Medium |
@@ -243,6 +245,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0090-subsets-ii](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/0090-subsets-ii/) | Medium |
+| [0421-maximum-xor-of-two-numbers-in-an-array](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/0421-maximum-xor-of-two-numbers-in-an-array/) | Medium |
 | [1483-kth-ancestor-of-a-tree-node](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/1483-kth-ancestor-of-a-tree-node/) | Hard |
 | [2035-partition-array-into-two-arrays-to-minimize-sum-difference](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/master/2035-partition-array-into-two-arrays-to-minimize-sum-difference) |
 ## Sorting
@@ -514,6 +517,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0014-longest-common-prefix](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/0014-longest-common-prefix/) | Easy |
 | [0139-word-break](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/0139-word-break/) | Medium |
 | [0208-implement-trie-prefix-tree](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/0208-implement-trie-prefix-tree/) | Medium |
+| [0421-maximum-xor-of-two-numbers-in-an-array](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/0421-maximum-xor-of-two-numbers-in-an-array/) | Medium |
 ## Memoization
 | Problem Name | Difficulty |
 | ------- | ------- |
