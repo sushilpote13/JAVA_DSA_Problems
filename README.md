@@ -44,6 +44,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0912-sort-an-array](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/0912-sort-an-array/) | Medium |
 | [0994-rotting-oranges](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/0994-rotting-oranges/) | Medium |
 | [1008-construct-binary-search-tree-from-preorder-traversal](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/1008-construct-binary-search-tree-from-preorder-traversal/) | Medium |
+| [1431-kids-with-the-greatest-number-of-candies](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/1431-kids-with-the-greatest-number-of-candies/) | Easy |
 | [1547-minimum-cost-to-cut-a-stick](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/1547-minimum-cost-to-cut-a-stick/) | Hard |
 | [1584-min-cost-to-connect-all-points](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/1584-min-cost-to-connect-all-points/) | Medium |
 | [1671-minimum-number-of-removals-to-make-mountain-array](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/1671-minimum-number-of-removals-to-make-mountain-array/) | Hard |
