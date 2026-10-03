@@ -49,6 +49,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0852-peak-index-in-a-mountain-array](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/0852-peak-index-in-a-mountain-array/) | Medium |
 | [0912-sort-an-array](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/0912-sort-an-array/) | Medium |
 | [0994-rotting-oranges](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/0994-rotting-oranges/) | Medium |
+| [1004-max-consecutive-ones-iii](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/1004-max-consecutive-ones-iii/) | Medium |
 | [1008-construct-binary-search-tree-from-preorder-traversal](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/1008-construct-binary-search-tree-from-preorder-traversal/) | Medium |
 | [1431-kids-with-the-greatest-number-of-candies](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/1431-kids-with-the-greatest-number-of-candies/) | Easy |
 | [1547-minimum-cost-to-cut-a-stick](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/1547-minimum-cost-to-cut-a-stick/) | Hard |
@@ -71,6 +72,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0540-single-element-in-a-sorted-array](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/0540-single-element-in-a-sorted-array/) | Medium |
 | [0852-peak-index-in-a-mountain-array](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/0852-peak-index-in-a-mountain-array/) | Medium |
 | [0887-super-egg-drop](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/0887-super-egg-drop/) | Hard |
+| [1004-max-consecutive-ones-iii](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/1004-max-consecutive-ones-iii/) | Medium |
 | [1483-kth-ancestor-of-a-tree-node](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/1483-kth-ancestor-of-a-tree-node/) | Hard |
 | [1671-minimum-number-of-removals-to-make-mountain-array](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/1671-minimum-number-of-removals-to-make-mountain-array/) | Hard |
 | [2035-partition-array-into-two-arrays-to-minimize-sum-difference](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/master/2035-partition-array-into-two-arrays-to-minimize-sum-difference) |
@@ -542,6 +544,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- | ------- |
 | [0632-smallest-range-covering-elements-from-k-lists](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/0632-smallest-range-covering-elements-from-k-lists/) | Hard |
 | [0643-maximum-average-subarray-i](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/master/0643-maximum-average-subarray-i) |
+| [1004-max-consecutive-ones-iii](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/1004-max-consecutive-ones-iii/) | Medium |
 | [1456-maximum-number-of-vowels-in-a-substring-of-given-length](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/1456-maximum-number-of-vowels-in-a-substring-of-given-length/) | Medium |
 ## Trie
 | Problem Name | Difficulty |
@@ -696,4 +699,5 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0238-product-of-array-except-self](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/master/0238-product-of-array-except-self) |
+| [1004-max-consecutive-ones-iii](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/1004-max-consecutive-ones-iii/) | Medium |
 <!---LeetCode Topics End-->
