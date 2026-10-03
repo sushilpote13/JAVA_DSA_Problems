@@ -1,6 +1,6 @@
 class Solution {
     public int compress(char[] chars) {
-        int st = 0; // write pointer
+        int st = 0; // write pointer 
         int next = 1; // read pointer
         char s = chars[0];
         int count = 1;
