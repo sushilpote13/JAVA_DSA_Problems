@@ -26,6 +26,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0152-maximum-product-subarray](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/0152-maximum-product-subarray/) | Medium |
 | [0198-house-robber](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/0198-house-robber/) | Medium |
 | [0200-number-of-islands](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/0200-number-of-islands/) | Medium |
+| [0238-product-of-array-except-self](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/master/0238-product-of-array-except-self) |
 | [0300-longest-increasing-subsequence](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/0300-longest-increasing-subsequence/) | Medium |
 | [0322-coin-change](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/0322-coin-change/) | Medium |
 | [0347-top-k-frequent-elements](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/0347-top-k-frequent-elements/) | Medium |
@@ -666,4 +667,8 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0455-assign-cookies](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/0455-assign-cookies/) | Easy |
+## Prefix Sum
+|  |
+| ------- |
+| [0238-product-of-array-except-self](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/master/0238-product-of-array-except-self) |
 <!---LeetCode Topics End-->
