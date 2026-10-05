@@ -52,6 +52,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1004-max-consecutive-ones-iii](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/1004-max-consecutive-ones-iii/) | Medium |
 | [1008-construct-binary-search-tree-from-preorder-traversal](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/1008-construct-binary-search-tree-from-preorder-traversal/) | Medium |
 | [1431-kids-with-the-greatest-number-of-candies](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/1431-kids-with-the-greatest-number-of-candies/) | Easy |
+| [1493-longest-subarray-of-1s-after-deleting-one-element](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/1493-longest-subarray-of-1s-after-deleting-one-element/) | Medium |
 | [1547-minimum-cost-to-cut-a-stick](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/1547-minimum-cost-to-cut-a-stick/) | Hard |
 | [1584-min-cost-to-connect-all-points](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/1584-min-cost-to-connect-all-points/) | Medium |
 | [1671-minimum-number-of-removals-to-make-mountain-array](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/1671-minimum-number-of-removals-to-make-mountain-array/) | Hard |
@@ -156,6 +157,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1143-longest-common-subsequence](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/1143-longest-common-subsequence/) | Medium |
 | [1334-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/1334-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance/) | Medium |
 | [1483-kth-ancestor-of-a-tree-node](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/1483-kth-ancestor-of-a-tree-node/) | Hard |
+| [1493-longest-subarray-of-1s-after-deleting-one-element](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/1493-longest-subarray-of-1s-after-deleting-one-element/) | Medium |
 | [1547-minimum-cost-to-cut-a-stick](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/1547-minimum-cost-to-cut-a-stick/) | Hard |
 | [1671-minimum-number-of-removals-to-make-mountain-array](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/1671-minimum-number-of-removals-to-make-mountain-array/) | Hard |
 | [1976-number-of-ways-to-arrive-at-destination](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/1976-number-of-ways-to-arrive-at-destination/) | Medium |
@@ -546,6 +548,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0643-maximum-average-subarray-i](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/master/0643-maximum-average-subarray-i) |
 | [1004-max-consecutive-ones-iii](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/1004-max-consecutive-ones-iii/) | Medium |
 | [1456-maximum-number-of-vowels-in-a-substring-of-given-length](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/1456-maximum-number-of-vowels-in-a-substring-of-given-length/) | Medium |
+| [1493-longest-subarray-of-1s-after-deleting-one-element](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/1493-longest-subarray-of-1s-after-deleting-one-element/) | Medium |
 ## Trie
 | Problem Name | Difficulty |
 | ------- | ------- |
