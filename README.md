@@ -63,6 +63,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2035-partition-array-into-two-arrays-to-minimize-sum-difference](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/master/2035-partition-array-into-two-arrays-to-minimize-sum-difference) |
 | [2064-minimized-maximum-of-products-distributed-to-any-store](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/2064-minimized-maximum-of-products-distributed-to-any-store/) | Medium |
 | [2073-time-needed-to-buy-tickets](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/2073-time-needed-to-buy-tickets/) | Easy |
+| [2215-find-the-difference-of-two-arrays](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/2215-find-the-difference-of-two-arrays/) | Easy |
 | [2596-check-knight-tour-configuration](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/2596-check-knight-tour-configuration/) | Medium |
 | [3193-count-the-number-of-inversions](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/3193-count-the-number-of-inversions/) | Hard |
 ## Binary Search
@@ -186,6 +187,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0947-most-stones-removed-with-same-row-or-column](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/0947-most-stones-removed-with-same-row-or-column/) | Medium |
 | [1679-max-number-of-k-sum-pairs](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/1679-max-number-of-k-sum-pairs/) | Medium |
 | [1932-merge-bsts-to-create-single-bst](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/1932-merge-bsts-to-create-single-bst/) | Hard |
+| [2215-find-the-difference-of-two-arrays](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/2215-find-the-difference-of-two-arrays/) | Easy |
 ## Matrix
 | Problem Name | Difficulty |
 | ------- | ------- |
