@@ -52,6 +52,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0994-rotting-oranges](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/0994-rotting-oranges/) | Medium |
 | [1004-max-consecutive-ones-iii](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/1004-max-consecutive-ones-iii/) | Medium |
 | [1008-construct-binary-search-tree-from-preorder-traversal](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/1008-construct-binary-search-tree-from-preorder-traversal/) | Medium |
+| [1207-unique-number-of-occurrences](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/1207-unique-number-of-occurrences/) | Easy |
 | [1431-kids-with-the-greatest-number-of-candies](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/1431-kids-with-the-greatest-number-of-candies/) | Easy |
 | [1493-longest-subarray-of-1s-after-deleting-one-element](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/1493-longest-subarray-of-1s-after-deleting-one-element/) | Medium |
 | [1547-minimum-cost-to-cut-a-stick](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/1547-minimum-cost-to-cut-a-stick/) | Hard |
@@ -185,6 +186,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0496-next-greater-element-i](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/0496-next-greater-element-i/) | Easy |
 | [0632-smallest-range-covering-elements-from-k-lists](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/0632-smallest-range-covering-elements-from-k-lists/) | Hard |
 | [0947-most-stones-removed-with-same-row-or-column](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/0947-most-stones-removed-with-same-row-or-column/) | Medium |
+| [1207-unique-number-of-occurrences](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/1207-unique-number-of-occurrences/) | Easy |
 | [1679-max-number-of-k-sum-pairs](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/1679-max-number-of-k-sum-pairs/) | Medium |
 | [1932-merge-bsts-to-create-single-bst](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/1932-merge-bsts-to-create-single-bst/) | Hard |
 | [2215-find-the-difference-of-two-arrays](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/2215-find-the-difference-of-two-arrays/) | Easy |
