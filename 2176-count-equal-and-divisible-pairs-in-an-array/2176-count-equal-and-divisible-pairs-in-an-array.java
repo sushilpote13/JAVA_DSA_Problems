@@ -1,18 +1,22 @@
 class Solution {
     public int countPairs(int[] nums, int k) {
 
+        HashMap<Integer, List<Integer>> map = new HashMap<>();
         int count = 0;
-        int n = nums.length;
 
-        for (int i = 0; i < n; i++) {
+        for (int i = 0; i < nums.length; i++) {
 
-            for (int j = i + 1; j < n; j++) {
+            map.putIfAbsent(nums[i], new ArrayList<>());
 
-                // Same value + product of indices divisible by k
-                if (nums[i] == nums[j] && (i * j) % k == 0) {
+            List<Integer> indices = map.get(nums[i]);
+
+            for (int index : indices) {
+                if ((index * i) % k == 0) {
                     count++;
                 }
             }
+
+            indices.add(i);
         }
 
         return count;
