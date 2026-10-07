@@ -136,6 +136,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1071-greatest-common-divisor-of-strings](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/1071-greatest-common-divisor-of-strings/) | Easy |
 | [1143-longest-common-subsequence](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/1143-longest-common-subsequence/) | Medium |
 | [1456-maximum-number-of-vowels-in-a-substring-of-given-length](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/1456-maximum-number-of-vowels-in-a-substring-of-given-length/) | Medium |
+| [1657-determine-if-two-strings-are-close](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/1657-determine-if-two-strings-are-close/) | Medium |
 | [1768-merge-strings-alternately](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/1768-merge-strings-alternately/) | Easy |
 ## Dynamic Programming
 | Problem Name | Difficulty |
@@ -188,6 +189,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0632-smallest-range-covering-elements-from-k-lists](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/0632-smallest-range-covering-elements-from-k-lists/) | Hard |
 | [0947-most-stones-removed-with-same-row-or-column](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/0947-most-stones-removed-with-same-row-or-column/) | Medium |
 | [1207-unique-number-of-occurrences](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/1207-unique-number-of-occurrences/) | Easy |
+| [1657-determine-if-two-strings-are-close](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/1657-determine-if-two-strings-are-close/) | Medium |
 | [1679-max-number-of-k-sum-pairs](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/1679-max-number-of-k-sum-pairs/) | Medium |
 | [1932-merge-bsts-to-create-single-bst](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/1932-merge-bsts-to-create-single-bst/) | Hard |
 | [2215-find-the-difference-of-two-arrays](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/2215-find-the-difference-of-two-arrays/) | Easy |
@@ -289,6 +291,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0632-smallest-range-covering-elements-from-k-lists](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/0632-smallest-range-covering-elements-from-k-lists/) | Hard |
 | [0912-sort-an-array](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/0912-sort-an-array/) | Medium |
 | [1547-minimum-cost-to-cut-a-stick](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/1547-minimum-cost-to-cut-a-stick/) | Hard |
+| [1657-determine-if-two-strings-are-close](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/1657-determine-if-two-strings-are-close/) | Medium |
 | [1679-max-number-of-k-sum-pairs](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/1679-max-number-of-k-sum-pairs/) | Medium |
 | [2035-partition-array-into-two-arrays-to-minimize-sum-difference](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/master/2035-partition-array-into-two-arrays-to-minimize-sum-difference) |
 ## Heap (Priority Queue)
@@ -320,6 +323,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0347-top-k-frequent-elements](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/0347-top-k-frequent-elements/) | Medium |
 | [0387-first-unique-character-in-a-string](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/0387-first-unique-character-in-a-string/) | Easy |
 | [0912-sort-an-array](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/0912-sort-an-array/) | Medium |
+| [1657-determine-if-two-strings-are-close](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/1657-determine-if-two-strings-are-close/) | Medium |
 ## Math
 | Problem Name | Difficulty |
 | ------- | ------- |
