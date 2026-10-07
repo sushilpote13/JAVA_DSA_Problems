@@ -1,32 +1,39 @@
+import java.util.*;
+
 class Solution {
     public boolean closeStrings(String word1, String word2) {
-        int n = word1.length();
-        int m = word2.length();
 
-        if (n != m) {
+        if (word1.length() != word2.length()) {
             return false;
         }
 
-        int[] freq1 = new int[26];
-        int[] freq2 = new int[26];
+        HashMap<Character, Integer> map1 = new HashMap<>();
+        HashMap<Character, Integer> map2 = new HashMap<>();
 
-        for (int i = 0; i < n; i++) {
-            freq1[word1.charAt(i) - 'a']++;
-        }
-        for (int i = 0; i < m; i++) {
-            freq2[word2.charAt(i) - 'a']++;
+        // Count word1
+        for (char c : word1.toCharArray()) {
+            map1.put(c, map1.getOrDefault(c, 0) + 1);
         }
 
-        for (int i = 0; i < 26; i++) {
-            if ((freq1[i] == 0) != (freq2[i] == 0)) {
-                return false;
-            }
+        // Count word2
+        for (char c : word2.toCharArray()) {
+            map2.put(c, map2.getOrDefault(c, 0) + 1);
         }
 
-        Arrays.sort(freq1);
-        Arrays.sort(freq2);
+        // Check same characters
+        if (!map1.keySet().equals(map2.keySet())) {
+            return false;
+        }
 
-        // Check same frequency distribution
-        return Arrays.equals(freq1, freq2);
+        // Get frequencies
+        ArrayList<Integer> freq1 = new ArrayList<>(map1.values());
+        ArrayList<Integer> freq2 = new ArrayList<>(map2.values());
+
+        // Sort frequencies
+        Collections.sort(freq1);
+        Collections.sort(freq2);
+
+        // Compare frequencies
+        return freq1.equals(freq2);
     }
 }
