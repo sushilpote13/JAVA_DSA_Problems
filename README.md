@@ -66,6 +66,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2073-time-needed-to-buy-tickets](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/2073-time-needed-to-buy-tickets/) | Easy |
 | [2176-count-equal-and-divisible-pairs-in-an-array](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/2176-count-equal-and-divisible-pairs-in-an-array/) | Easy |
 | [2215-find-the-difference-of-two-arrays](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/2215-find-the-difference-of-two-arrays/) | Easy |
+| [2352-equal-row-and-column-pairs](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/2352-equal-row-and-column-pairs/) | Medium |
 | [2596-check-knight-tour-configuration](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/2596-check-knight-tour-configuration/) | Medium |
 | [3193-count-the-number-of-inversions](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/3193-count-the-number-of-inversions/) | Hard |
 ## Binary Search
@@ -193,6 +194,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1679-max-number-of-k-sum-pairs](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/1679-max-number-of-k-sum-pairs/) | Medium |
 | [1932-merge-bsts-to-create-single-bst](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/1932-merge-bsts-to-create-single-bst/) | Hard |
 | [2215-find-the-difference-of-two-arrays](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/2215-find-the-difference-of-two-arrays/) | Easy |
+| [2352-equal-row-and-column-pairs](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/2352-equal-row-and-column-pairs/) | Medium |
 ## Matrix
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -202,6 +204,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0542-01-matrix](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/0542-01-matrix/) | Medium |
 | [0733-flood-fill](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/0733-flood-fill/) | Easy |
 | [0994-rotting-oranges](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/0994-rotting-oranges/) | Medium |
+| [2352-equal-row-and-column-pairs](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/2352-equal-row-and-column-pairs/) | Medium |
 | [2596-check-knight-tour-configuration](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/2596-check-knight-tour-configuration/) | Medium |
 ## Depth-First Search
 | Problem Name | Difficulty |
@@ -272,6 +275,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [2073-time-needed-to-buy-tickets](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/2073-time-needed-to-buy-tickets/) | Easy |
+| [2352-equal-row-and-column-pairs](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/2352-equal-row-and-column-pairs/) | Medium |
 | [2596-check-knight-tour-configuration](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/2596-check-knight-tour-configuration/) | Medium |
 ## Bit Manipulation
 | Problem Name | Difficulty |
