@@ -47,6 +47,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0643-maximum-average-subarray-i](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/master/0643-maximum-average-subarray-i) |
 | [0724-find-pivot-index](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/0724-find-pivot-index/) | Easy |
 | [0733-flood-fill](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/0733-flood-fill/) | Easy |
+| [0735-asteroid-collision](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/0735-asteroid-collision/) | Medium |
 | [0852-peak-index-in-a-mountain-array](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/0852-peak-index-in-a-mountain-array/) | Medium |
 | [0912-sort-an-array](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/0912-sort-an-array/) | Medium |
 | [0994-rotting-oranges](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/0994-rotting-oranges/) | Medium |
@@ -275,6 +276,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Simulation
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0735-asteroid-collision](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/0735-asteroid-collision/) | Medium |
 | [2073-time-needed-to-buy-tickets](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/2073-time-needed-to-buy-tickets/) | Easy |
 | [2352-equal-row-and-column-pairs](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/2352-equal-row-and-column-pairs/) | Medium |
 | [2390-removing-stars-from-a-string](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/2390-removing-stars-from-a-string/) | Medium |
@@ -408,6 +410,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0234-palindrome-linked-list](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/0234-palindrome-linked-list/) | Easy |
 | [0496-next-greater-element-i](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/0496-next-greater-element-i/) | Easy |
 | [0503-next-greater-element-ii](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/0503-next-greater-element-ii/) | Medium |
+| [0735-asteroid-collision](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/0735-asteroid-collision/) | Medium |
 | [0901-online-stock-span](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/0901-online-stock-span/) | Medium |
 | [1008-construct-binary-search-tree-from-preorder-traversal](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/1008-construct-binary-search-tree-from-preorder-traversal/) | Medium |
 | [2390-removing-stars-from-a-string](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/2390-removing-stars-from-a-string/) | Medium |
