@@ -133,6 +133,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0345-reverse-vowels-of-a-string](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/0345-reverse-vowels-of-a-string/) | Easy |
 | [0387-first-unique-character-in-a-string](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/0387-first-unique-character-in-a-string/) | Easy |
 | [0392-is-subsequence](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/0392-is-subsequence/) | Easy |
+| [0394-decode-string](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/0394-decode-string/) | Medium |
 | [0443-string-compression](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/0443-string-compression/) | Medium |
 | [0516-longest-palindromic-subsequence](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/0516-longest-palindromic-subsequence/) | Medium |
 | [1071-greatest-common-divisor-of-strings](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/1071-greatest-common-divisor-of-strings/) | Easy |
@@ -352,6 +353,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0206-reverse-linked-list](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/0206-reverse-linked-list/) | Easy |
 | [0224-basic-calculator](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/0224-basic-calculator/) | Hard |
 | [0234-palindrome-linked-list](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/0234-palindrome-linked-list/) | Easy |
+| [0394-decode-string](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/0394-decode-string/) | Medium |
 ## Linked List
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -408,6 +410,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0224-basic-calculator](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/0224-basic-calculator/) | Hard |
 | [0225-implement-stack-using-queues](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/0225-implement-stack-using-queues/) | Easy |
 | [0234-palindrome-linked-list](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/0234-palindrome-linked-list/) | Easy |
+| [0394-decode-string](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/0394-decode-string/) | Medium |
 | [0496-next-greater-element-i](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/0496-next-greater-element-i/) | Easy |
 | [0503-next-greater-element-ii](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/0503-next-greater-element-ii/) | Medium |
 | [0735-asteroid-collision](https://github.com/sushilpote13/JAVA_DSA_Problems/tree/main/0735-asteroid-collision/) | Medium |
